@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding: 14px;
 }
 
 body{
@@ -28,11 +28,13 @@ body{
 #navbar ul{
     list-style-type: none;
     z-index: 999;
+    padding: 0;
 }
 
 #navbar ul li{
     float: left;
-    border-right: 5px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    margin: 1px;
 }
 
 #navbar ul li:first-child{
@@ -71,7 +73,7 @@ body{
     background-color: #ffffff;
 }
 #navbar ul li ul li{
-    margin-bottom: 2px ;
+    margin-bottom: 1px ;
 }
 
 #navbar ul li ul li a{
