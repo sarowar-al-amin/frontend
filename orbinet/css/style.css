@@ -34,7 +34,7 @@ body{
 #navbar ul li{
     float: left;
     border-right: 1px solid #ffffff;
-    margin: 1px;
+    padding: 0;
 }
 
 #navbar ul li:first-child{
@@ -53,8 +53,12 @@ body{
 }
 #signup a{
     background-color: #fcb865;
-    text-align: center;
-    color: #ffffff;
+    width: 65px;
+    height: 14px;
+    border-radius: 4px;
+    border-top: none;
+    margin-top: -5px;;
+    padding: 5px;
 }
 
 #navbar ul li{
@@ -89,4 +93,19 @@ body{
 
 #navbar ul li ul li:first-child{
     padding: 0;
+}
+
+#heading{
+    margin: 0%;
+    padding: 0;
+}
+#first-portion h2{
+    margin: 4%;
+    margin-top: none;
+    padding: 0;
+}
+
+#bar{
+    padding: 0;
+    margin-top: 30px;
 }
