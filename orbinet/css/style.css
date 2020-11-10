@@ -49,8 +49,42 @@ body{
     color: black;
     display: block;
 }
-#signup li{
+#signup a{
     background-color: #fcb865;
     text-align: center;
     color: #ffffff;
+}
+
+#navbar ul li{
+    margin-left: 3px;
+    position: relative;
+}
+/*
+#navbar ul li:first-child{
+    padding: 0;
+}
+*/
+
+#navbar ul li ul{
+    position: absolute;
+    left: -9999px;
+    background-color: #ffffff;
+}
+#navbar ul li ul li{
+    margin-bottom: 2px ;
+}
+
+#navbar ul li ul li a{
+    width: 180px;
+    background-color: #ffffff;
+    color: black;
+    text-align: left;
+}
+
+#navbar ul li:hover ul{
+    left: 0;
+}
+
+#navbar ul li ul li:first-child{
+    padding: 0;
 }
