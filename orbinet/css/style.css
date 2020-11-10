@@ -50,6 +50,11 @@ body{
     text-align: center;
     color: black;
     display: block;
+    transition: all 1s ease;
+}
+#navbar ul li a:hover{
+    background-color: #fcb865;
+    color: white;
 }
 #signup a{
     background-color: #fcb865;
