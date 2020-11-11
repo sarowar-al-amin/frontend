@@ -27,15 +27,75 @@ p{
 .fix{
     overflow: hidden;
 }
+/*
+    Define container
+*/
+.container_full{
+    width: 100%;
+}
+
+
+.container{
+    width: 980px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* 
+    Background of header portion
+*/
+
+.header_bg{
+    background-color: #ffffff;
+}
 
 /*
     For logo 
 */
-.logo_left img {
+#header .logo_left{
+    float: left;
+}
+#header .logo_left img {
     width: 116px;
     height: 90px;
 }
 
+/* 
+    Design for navigation bar
+*/
+
+#header nav{
+    float: right;
+}
+
+#header>nav #menu{
+    list-style-type: none;
+}
+
+#header>nav #menu li{
+    float: left;
+}
+
+#header>nav #menu li a{
+    display: block;
+    color: black;
+    font-family: lato;
+    font-size: 16px;
+    padding: 15px 8px;
+}
+
+#header>nav #menu li:last-child{
+    padding-right: none;
+    width: 55px;
+    height: 60px;
+    background-color: #FFB255;
+    border-radius: 3px;
+}
+
+
+#header>nav #menu li a:hover{
+
+}
 /* 
     Design for sign in 
 */
