@@ -124,7 +124,7 @@ p{
 /* 
     for first yellow bar
 */
-#bar .yellow{
+.bar .yellow{
     width: 20px;
     height: 4px;
     background-color:  #FFB255;
@@ -134,7 +134,7 @@ p{
 /* 
     for first blue bar
 */
-#bar .blue{
+.bar .blue{
     width: 30px;
     height: 4px;
     background-color: rgb(64, 192, 224);
@@ -232,11 +232,11 @@ p{
     margin: 2px 5px;
 }
 
-.footer_col_1 h3{
+.footer_col h3{
     color: #ffffff;
 }
 
-.footer_col_1 h2{
+.footer_col h2{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 80;
     color: #e78a17;
@@ -245,8 +245,8 @@ p{
 /* 
     Footer bottom
 */
-#footer_bottom{
-    padding: 25px;
+#footer_bottom p{
+    margin-top: 45px;
 }
 
 #footer_bottom p:first-child{
@@ -268,4 +268,13 @@ p{
     font-size: 12px;
     color: #e78a17;
     font-family: cursive;
+}
+/* 
+    Responsible for making 4 column in row
+*/
+
+.footer_col{
+    width: 240px;
+    float: left;
+    margin-right: 5px ;
 }
