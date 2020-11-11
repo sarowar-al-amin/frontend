@@ -35,3 +35,70 @@ p{
     width: 116px;
     height: 90px;
 }
+
+/* 
+    Design for sign in 
+*/
+
+.sign_in {
+    width: 55px;
+    height: 20px;
+    background-color: #FFB255;
+    border-radius: 3px;
+}
+
+.sign_in a{
+    text-align: center;
+    color: #ffffff;
+}
+
+/* 
+    for first content head bar
+*/
+
+.head_bar p{
+    color: #FFB255;
+}
+
+/* 
+    for first yellow bar
+*/
+#bar .yellow{
+    width: 20px;
+    height: 4px;
+    background-color:  #FFB255;
+    border-radius: 1px;
+}
+
+/* 
+    for first blue bar
+*/
+#bar .blue{
+    width: 30px;
+    height: 4px;
+    background-color: rgb(64, 192, 224);
+    border-radius: 1px;
+}
+
+/* 
+    view all services botton
+*/
+.view_services {
+    width: 123px;
+    height: 28px;
+    padding-top: 2px;
+    background-color: #FFB255;
+    border-radius: 2px;
+}
+.view_services a{ 
+    color: #ffffff;
+}
+
+/* 
+    First content image 
+*/
+
+.first_content_rs_img img {
+    width: 461px;
+    height: 400px;
+}
