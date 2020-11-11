@@ -201,6 +201,7 @@ p{
 */
 
 .f_bar_y{
+    float: left;
     width: 15px;
     height: 5px;
     background-color: #FFB255;
@@ -211,6 +212,9 @@ p{
     Footer blue bar
 */
 .f_bar_b{
+    float: left;
+    padding-right: 2px;
+    margin-right: 2px;
     width: 20px;
     height: 5px;
     background-color: rgb(64, 192, 224);
@@ -226,4 +230,42 @@ p{
     float: left;
     padding: 2px;
     margin: 2px 5px;
+}
+
+.footer_col_1 h3{
+    color: #ffffff;
+}
+
+.footer_col_1 h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 80;
+    color: #e78a17;
+}
+
+/* 
+    Footer bottom
+*/
+#footer_bottom{
+    padding: 25px;
+}
+
+#footer_bottom p:first-child{
+    padding-right: 0;
+   
+}
+
+/*
+    Footer  paragraph and read more
+*/
+
+.footer_p p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.footer_p a{
+    font-size: 12px;
+    color: #e78a17;
+    font-family: cursive;
 }
