@@ -206,3 +206,24 @@ p{
     background-color: #FFB255;
     border-radius: 1px;
 }
+
+/*
+    Footer blue bar
+*/
+.f_bar_b{
+    width: 20px;
+    height: 5px;
+    background-color: rgb(64, 192, 224);
+    border-radius: 1px;
+}
+
+/*
+    Bar wrapper will float those bar in left
+*/
+
+
+.bar_wrap{
+    float: left;
+    padding: 2px;
+    margin: 2px 5px;
+}
