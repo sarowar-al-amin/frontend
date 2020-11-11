@@ -1,116 +1,37 @@
-*{
-    margin: 0;
-    padding: 14px;
-}
+/*
+    Basic style at the very beginning
+*/
+*{margin: 0; padding: 0;}
 
 body{
-
-    background-color: #ffffff;
+    font-family: sans-serif, Arial, !important;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-#wrapper{
-    width: 960px;
-    margin: 20px auto;
-}
-
-#header { 
-     background-color: #ffffff;
-     color: black;
-     float: left;
-}
-
-#navbar{
-    background-color: #ffffff;
-    color: #FFB863;
-    border-bottom: 1px solid #ffffff;
-}
-
-#navbar ul{
-    list-style-type: none;
-    z-index: 999;
-    padding: 0;
-}
-
-#navbar ul li{
-    float: left;
-    border-right: 1px solid #ffffff;
-    padding: 0;
-}
-
-#navbar ul li:first-child{
-    padding-left: 30px ;
-}
-
-#navbar ul li:last-child{
-    border: none;
-}
-
-#navbar ul li a{
+a{
     text-decoration: none;
-    text-align: center;
-    color: black;
-    display: block;
-    transition: all 1s ease;
-}
-#navbar ul li a:hover{
-    background-color: #fcb865;
-    color: white;
-}
-#signup a{
-    background-color: #fcb865;
-    width: 65px;
-    height: 14px;
-    border-radius: 4px;
-    border-top: none;
-    margin-top: -5px;;
-    padding: 5px;
 }
 
-#navbar ul li{
-    margin-left: 3px;
-    position: relative;
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+
+.fix{
+    overflow: hidden;
+}
+
 /*
-#navbar ul li:first-child{
-    padding: 0;
-}
+    For logo 
 */
-
-#navbar ul li ul{
-    position: absolute;
-    left: -9999px;
-    background-color: #ffffff;
-}
-#navbar ul li ul li{
-    margin-bottom: 1px ;
-}
-
-#navbar ul li ul li a{
-    width: 180px;
-    background-color: #ffffff;
-    color: black;
-    text-align: left;
-}
-
-#navbar ul li:hover ul{
-    left: 0;
-}
-
-#navbar ul li ul li:first-child{
-    padding: 0;
-}
-
-#heading{
-    margin: 0%;
-    padding: 0;
-}
-#first-portion h2{
-    margin: 4%;
-    margin-top: none;
-    padding: 0;
-}
-
-#bar{
-    padding: 0;
-    margin-top: 30px;
+.logo_left img {
+    width: 116px;
+    height: 90px;
 }
