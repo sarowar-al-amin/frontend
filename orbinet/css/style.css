@@ -80,37 +80,38 @@ p{
     display: block;
     color: black;
     font-family: lato;
-    font-size: 16px;
+    font-size: 12px;
     padding: 15px 8px;
 }
-
+/*
 #header>nav #menu li:last-child{
     padding-right: none;
     width: 55px;
-    height: 60px;
+    height: 30px;
     background-color: #FFB255;
     border-radius: 3px;
 }
+*/
 
 
 #header>nav #menu li a:hover{
-
+    color:  #FFB255;
+}
+#header>nav #menu li.active a{
+    color:  #FFB255;
 }
 /* 
     Design for sign in 
 */
 
-.sign_in {
-    width: 55px;
-    height: 20px;
+#header>nav #menu li #sign_in a {
+    width: 38px;
+    height: 3px;
     background-color: #FFB255;
     border-radius: 3px;
-}
-
-.sign_in a{
-    text-align: center;
     color: #ffffff;
 }
+
 
 /* 
     for first content head bar
@@ -141,6 +142,24 @@ p{
 }
 
 /* 
+    Drawing the circle
+*/
+#circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 2%;
+    border-color:  #FFB255;
+    background-color:   #e78a17;
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+#circle:hover{
+    opacity: 1;
+}
+
+/* 
     view all services botton
 */
 .view_services {
@@ -161,4 +180,18 @@ p{
 .first_content_rs_img img {
     width: 461px;
     height: 400px;
+}
+
+/*
+    Footer background
+*/
+.footer_bg{
+    background-color: #0C131A;
+}
+
+
+#footer_bottom p{
+    width: 320px;
+    color: #BC833E;
+    float: left;
 }
