@@ -195,3 +195,14 @@ p{
     color: #BC833E;
     float: left;
 }
+
+/* 
+    Footer yellow bar
+*/
+
+.f_bar_y{
+    width: 15px;
+    height: 5px;
+    background-color: #FFB255;
+    border-radius: 1px;
+}
