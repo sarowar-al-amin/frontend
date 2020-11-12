@@ -136,13 +136,20 @@ p{
 */
 
 .head_bar p{
+    padding: 10px;
+    padding-right: 0;
     color: #FFB255;
 }
+/* 
+    Yellow and Blue Bar floating
+*/
+
 
 /* 
     for first yellow bar
 */
 .bar .yellow{
+    float: left;
     width: 20px;
     height: 4px;
     background-color:  #FFB255;
@@ -153,6 +160,7 @@ p{
     for first blue bar
 */
 .bar .blue{
+    float: left;
     width: 30px;
     height: 4px;
     background-color: rgb(64, 192, 224);
