@@ -1,5 +1,8 @@
 /*
+    This code is written by Md. Sarowar Al-Amin
+    =====================================
     Basic style at the very beginning
+    ======================================
 */
 *{margin: 0; padding: 0;}
 
@@ -128,6 +131,19 @@ p{
     background-color: #FFB255;
     border-radius: 3px;
     color: #ffffff;
+}
+
+/* 
+    First content floating left
+*/
+.left_side_content{
+    width: 485px;
+    float: left;
+}
+
+.right_side_content{
+    width: 485px;
+    float: left
 }
 
 
