@@ -343,7 +343,6 @@ p{
 */
 #footer_bottom{
     padding: 20px 4px;
-    border-top: 1px solid #ffffff;
 }
 #footer_bottom p{
     margin-top: 5px;
@@ -409,4 +408,32 @@ p{
 */
 .margin_box{
     margin-top: 20px;
+}
+
+/* 
+==========================================
+    thrid container Design
+==========================================
+*/
+
+.thrid_con_bg{
+    background-color: #FFFAF3;
+}
+
+.contain_third .left_side_content{
+    width: 490px;
+    float: left;
+}
+
+.contain_third .left_side_content img{
+    padding: 20px;
+    width: 400px;
+}
+
+/*
+    Thrid container right portion
+*/
+
+.contain_third .right_side_content{
+    margin-top: 10px;
 }
