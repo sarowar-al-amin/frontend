@@ -185,6 +185,23 @@ p{
     opacity: 1;
 }
 
+/*
+    Triangle drawing at the bottom
+*/
+.triangle {
+    width: 0;
+    height: 0;
+    margin: 10px;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 32px solid #e78a17;
+    opacity: 0.3;
+    transition: all 0.3s ease;
+}
+
+.triangle:hover{
+    opacity: 1;
+}
 /* 
     view all services botton
 */
