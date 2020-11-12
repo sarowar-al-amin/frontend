@@ -237,10 +237,9 @@ p{
 */
 
 .first_content_rs_img img {
-    width: 461px;
-    height: 400px;
+    width: 456px;
+    height: 338px;
 }
-
 /*
     Footer background
 */
@@ -349,4 +348,17 @@ p{
 #footer_bottom p{
     margin-top: 5px;
 
+}
+
+/*
+    ========================================
+    Second componet
+    ========================================
+*/
+
+.contain_second .left_side_content h2{
+    font-size: 16px;
+    font-family: cursive;
+    color: #FFB255
+    ;
 }
