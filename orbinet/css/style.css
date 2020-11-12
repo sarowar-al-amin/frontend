@@ -68,8 +68,13 @@ p{
     float: right;
 }
 
+#header>nav ul{
+     z-index: 999;
+}
+
 #header>nav #menu{
     list-style-type: none;
+    
 }
 
 #header>nav #menu li{
@@ -82,6 +87,19 @@ p{
     font-family: lato;
     font-size: 12px;
     padding: 15px 8px;
+}
+#header>nav #menu li {
+    position: relative;
+    list-style-type: none;
+}
+
+#header>nav #menu li ul{
+    position: absolute;
+    left: -9999px;
+}
+
+#header>nav #menu li:hover ul{
+    left: 0;
 }
 /*
 #header>nav #menu li:last-child{
