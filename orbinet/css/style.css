@@ -468,6 +468,23 @@ p{
 }
 
 /*
+====================================
+    Container 6 design
+====================================
+*/
+
+
+.sixth_conatain .left_side_content{
+    width: 480px;
+    margin-top: 30px;
+    display: block;
+}
+.right_side_content .sixth_content_rs_img img{
+    width: 420px;
+    margin-top: 20px;
+}
+
+/*
     Seventh Container's image
 */
 .seventh_contain .left_side_content{
@@ -476,6 +493,7 @@ p{
     float: left;
 }
 .seventh_contain .right_side_content{
+    margin-top: 25px;
     width: 450px;
 }
 .seventh_content_rs_img img{
@@ -485,8 +503,8 @@ p{
 /*
     Checked circle design
 */
-.check_circle_text{
-    height: 20px;
+.check_circle_text {
+    height: 25px;
 }
 
 .check_circle_text .check_circle img {
