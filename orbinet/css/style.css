@@ -437,3 +437,32 @@ p{
 .contain_third .right_side_content{
     margin-top: 10px;
 }
+
+/*
+===============================
+    Fifth container
+===============================
+*/
+
+.fifth_bg{
+    background-color: #FFFAF3;
+}
+.fifth_contain{
+    margin-left: 20px;
+}
+.fifth_contain .left_side_content{
+    width: 480px;
+    float: left;
+}
+
+.fifth_contain .right_side_content{
+    width: 480px ;
+    float: left;
+}
+
+
+
+.fifth_content_left_img img{
+    width: 300px;
+    height: 280px;
+}
