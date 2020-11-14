@@ -466,3 +466,36 @@ p{
     width: 300px;
     height: 280px;
 }
+
+/*
+    Seventh Container's image
+*/
+.seventh_contain .left_side_content{
+    width: 450px;
+    padding-right: 10px;
+    float: left;
+}
+.seventh_contain .right_side_content{
+    width: 450px;
+}
+.seventh_content_rs_img img{
+    width: 400px;
+}
+
+/*
+    Checked circle design
+*/
+.check_circle_text{
+    height: 20px;
+}
+
+.check_circle_text .check_circle img {
+    width: 23px;
+    height: 24px;
+    padding-left: 5px;
+    float: left;
+}
+
+.check_circle_text p{
+    margin-left: 35px;
+}
