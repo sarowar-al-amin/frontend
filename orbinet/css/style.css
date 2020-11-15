@@ -525,5 +525,16 @@ p{
 */
 .eighth_contain {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+}
+.eighth_contain .header-8{ 
+    width: 260px;
+}
+
+.eighth_contain .header-8 h2{
+    margin-top: 5px;
+}
+
+.eighth_contain .header-8 p{
+    font-size: 10px;
 }
