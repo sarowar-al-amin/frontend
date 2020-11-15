@@ -517,3 +517,13 @@ p{
 .check_circle_text p{
     margin-left: 35px;
 }
+
+/*
+====================================
+    Eighth container 
+====================================
+*/
+.eighth_contain {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
