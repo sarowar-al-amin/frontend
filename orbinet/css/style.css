@@ -40,6 +40,10 @@ p {
     overflow: hidden;
 }
 
+em {
+    color: #BC833E;
+}
+
 
 /*
     Define container
