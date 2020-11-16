@@ -4,106 +4,124 @@
     Basic style at the very beginning
     ======================================
 */
-*{margin: 0; padding: 0;}
 
-body{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: sans-serif, Arial, !important;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-weight: normal;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-p{
+p {
     line-height: 150%;
     margin-bottom: 2em;
 }
 
-.fix{
+.fix {
     overflow: hidden;
 }
+
+
 /*
     Define container
 */
-.container_full{
+
+.container_full {
     width: 100%;
 }
 
-
-.container{
+.container {
     width: 980px;
     display: block;
     margin: 0 auto;
 }
 
+
 /* 
     Background of header portion
 */
 
-.header_bg{
+.header_bg {
     background-color: #ffffff;
 }
+
 
 /*
     For logo 
 */
-#header .logo_left{
+
+#header .logo_left {
     float: left;
 }
+
 #header .logo_left img {
     width: 116px;
     height: 90px;
 }
 
+
 /* 
     Design for navigation bar
 */
 
-#header nav{
+#header nav {
     float: right;
 }
 
-#header>nav ul{
-     z-index: 999;
+#header>nav ul {
+    z-index: 999;
 }
 
-#header>nav #menu{
+#header>nav #menu {
     list-style-type: none;
-    
 }
 
-#header>nav #menu li{
+#header>nav #menu li {
     float: left;
 }
 
-#header>nav #menu li a{
+#header>nav #menu li a {
     display: block;
     color: black;
     font-family: lato;
     font-size: 12px;
     padding: 15px 8px;
 }
+
 #header>nav #menu li {
     position: relative;
     list-style-type: none;
 }
 
-#header>nav #menu li ul{
+#header>nav #menu li ul {
     position: absolute;
     left: -9999px;
 }
 
-#header>nav #menu li:hover ul{
+#header>nav #menu li:hover ul {
     left: 0;
 }
+
+
 /*
 #header>nav #menu li:last-child{
     padding-right: none;
@@ -114,13 +132,15 @@ p{
 }
 */
 
+#header>nav #menu li a:hover {
+    color: #FFB255;
+}
 
-#header>nav #menu li a:hover{
-    color:  #FFB255;
+#header>nav #menu li.active a {
+    color: #FFB255;
 }
-#header>nav #menu li.active a{
-    color:  #FFB255;
-}
+
+
 /* 
     Design for sign in 
 */
@@ -133,15 +153,17 @@ p{
     color: #ffffff;
 }
 
+
 /* 
     First content floating left
 */
-.left_side_content{
+
+.left_side_content {
     width: 485px;
     float: left;
 }
 
-.right_side_content{
+.right_side_content {
     width: 485px;
     float: left
 }
@@ -151,11 +173,13 @@ p{
     for first content head bar
 */
 
-.head_bar p{
+.head_bar p {
     padding: 10px;
     padding-right: 0;
     color: #FFB255;
 }
+
+
 /* 
     Yellow and Blue Bar floating
 */
@@ -164,18 +188,21 @@ p{
 /* 
     for first yellow bar
 */
-.bar .yellow{
+
+.bar .yellow {
     float: left;
     width: 20px;
     height: 4px;
-    background-color:  #FFB255;
+    background-color: #FFB255;
     border-radius: 1px;
 }
+
 
 /* 
     for first blue bar
 */
-.bar .blue{
+
+.bar .blue {
     float: left;
     width: 30px;
     height: 4px;
@@ -183,27 +210,31 @@ p{
     border-radius: 1px;
 }
 
+
 /* 
     Drawing the circle
 */
-#circle{
+
+#circle {
     width: 25px;
     height: 25px;
     border-radius: 50%;
     border-width: 2%;
-    border-color:  #FFB255;
-    background-color:   #e78a17;
+    border-color: #FFB255;
+    background-color: #e78a17;
     opacity: 0.5;
     transition: all 0.3s ease;
 }
 
-#circle:hover{
+#circle:hover {
     opacity: 1;
 }
+
 
 /*
     Triangle drawing at the bottom
 */
+
 .triangle {
     width: 0;
     height: 0;
@@ -215,12 +246,15 @@ p{
     transition: all 0.3s ease;
 }
 
-.triangle:hover{
+.triangle:hover {
     opacity: 1;
 }
+
+
 /* 
     view all services botton
 */
+
 .view_services {
     width: 123px;
     height: 28px;
@@ -228,9 +262,11 @@ p{
     background-color: #FFB255;
     border-radius: 2px;
 }
-.view_services a{ 
+
+.view_services a {
     color: #ffffff;
 }
+
 
 /* 
     First content image 
@@ -240,25 +276,28 @@ p{
     width: 456px;
     height: 367px;
 }
+
+
 /*
     Footer background
 */
-.footer_bg{
+
+.footer_bg {
     background-color: #0C131A;
 }
 
-
-#footer_bottom p{
+#footer_bottom p {
     width: 320px;
     color: #BC833E;
     float: left;
 }
 
+
 /* 
     Footer yellow bar
 */
 
-.f_bar_y{
+.f_bar_y {
     float: left;
     width: 15px;
     height: 5px;
@@ -266,10 +305,12 @@ p{
     border-radius: 1px;
 }
 
+
 /*
     Footer blue bar
 */
-.f_bar_b{
+
+.f_bar_b {
     float: left;
     padding-right: 2px;
     margin-right: 2px;
@@ -279,75 +320,79 @@ p{
     border-radius: 1px;
 }
 
+
 /*
     Bar wrapper will float those bar in left
 */
 
-
-.bar_wrap{
+.bar_wrap {
     float: left;
     padding: 2px;
     margin: 2px 5px;
 }
 
-.footer_col h3{
+.footer_col h3 {
     color: #ffffff;
 }
 
-.footer_col h2{
+.footer_col h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 80;
     color: #e78a17;
 }
 
 
-
 /*
     Footer  paragraph and read more
 */
 
-.footer_p p{
+.footer_p p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #ffffff;
 }
 
-.footer_p a{
+.footer_p a {
     font-size: 12px;
     color: #e78a17;
     font-family: cursive;
 }
+
+
 /* 
     Responsible for making 4 column in row
 */
 
-.footer_col{
+.footer_col {
     width: 240px;
     float: left;
-    margin-right: 5px ;
+    margin-right: 5px;
     display: block;
 }
 
-.footer_col li a{
+.footer_col li a {
     font-size: 10px;
     color: #ffffff;
 }
 
-.footer_col p{
+.footer_col p {
     font-size: 10px;
     color: #ffffff;
 }
+
 
 /* 
     Footer bottom
 */
-#footer_bottom{
+
+#footer_bottom {
     padding: 20px 4px;
 }
-#footer_bottom p{
-    margin-top: 5px;
 
+#footer_bottom p {
+    margin-top: 5px;
 }
+
 
 /*
     ========================================
@@ -355,41 +400,44 @@ p{
     ========================================
 */
 
-.contain_second .left_side_content h2{
+.contain_second .left_side_content h2 {
     font-size: 16px;
     font-family: cursive;
-    color: #FFB255
-    ;
+    color: #FFB255;
 }
+
+
 /*
     Box inside the second container
 */
-.box_wrapper{
+
+.box_wrapper {
     overflow: hidden;
 }
-.box_wrapper .left_box{
+
+.box_wrapper .left_box {
     float: left;
     width: 180px;
     margin: 5px;
 }
 
-.box_wrapper .right_box{
+.box_wrapper .right_box {
     float: left;
     width: 150px;
     margin: 5px;
 }
 
-.box{
+.box {
     display: block;
 }
 
-.box h3{
+.box h3 {
     font-size: 12px;
     font-family: cursive;
     color: black;
 }
 
-.box p{
+.box p {
     font-size: 9px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -401,14 +449,17 @@ p{
     height: 80px;
 }
 
+
 /*
 ============================================
     Margin Box
 ============================================
 */
-.margin_box{
+
+.margin_box {
     margin-top: 20px;
 }
+
 
 /* 
 ==========================================
@@ -416,27 +467,29 @@ p{
 ==========================================
 */
 
-.thrid_con_bg{
+.thrid_con_bg {
     background-color: #FFFAF3;
 }
 
-.contain_third .left_side_content{
+.contain_third .left_side_content {
     width: 490px;
     float: left;
 }
 
-.contain_third .left_side_content img{
+.contain_third .left_side_content img {
     padding: 20px;
     width: 400px;
 }
+
 
 /*
     Thrid container right portion
 */
 
-.contain_third .right_side_content{
+.contain_third .right_side_content {
     margin-top: 10px;
 }
+
 
 /*
 ===============================
@@ -444,28 +497,29 @@ p{
 ===============================
 */
 
-.fifth_bg{
+.fifth_bg {
     background-color: #FFFAF3;
 }
-.fifth_contain{
+
+.fifth_contain {
     margin-left: 20px;
 }
-.fifth_contain .left_side_content{
+
+.fifth_contain .left_side_content {
     width: 480px;
     float: left;
 }
 
-.fifth_contain .right_side_content{
-    width: 480px ;
+.fifth_contain .right_side_content {
+    width: 480px;
     float: left;
 }
 
-
-
-.fifth_content_left_img img{
+.fifth_content_left_img img {
     width: 300px;
     height: 280px;
 }
+
 
 /*
 ====================================
@@ -473,36 +527,42 @@ p{
 ====================================
 */
 
-
-.sixth_conatain .left_side_content{
+.sixth_conatain .left_side_content {
     width: 480px;
     margin-top: 30px;
     display: block;
 }
-.right_side_content .sixth_content_rs_img img{
+
+.right_side_content .sixth_content_rs_img img {
     width: 420px;
     margin-top: 20px;
 }
 
+
 /*
     Seventh Container's image
 */
-.seventh_contain .left_side_content{
+
+.seventh_contain .left_side_content {
     width: 450px;
     padding-right: 10px;
     float: left;
 }
-.seventh_contain .right_side_content{
+
+.seventh_contain .right_side_content {
     margin-top: 25px;
     width: 450px;
 }
-.seventh_content_rs_img img{
+
+.seventh_content_rs_img img {
     width: 400px;
 }
+
 
 /*
     Checked circle design
 */
+
 .check_circle_text {
     height: 25px;
 }
@@ -514,38 +574,54 @@ p{
     float: left;
 }
 
-.check_circle_text p{
+.check_circle_text p {
     margin-left: 35px;
 }
+
 
 /*
 ====================================
     Eighth container 
 ====================================
 */
+
 .eighth_contain {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.eighth_contain .header-8{ 
+
+.eighth_contain .header-8 {
     width: 260px;
 }
 
-.eighth_contain .header-8 h2{
+.eighth_contain .header-8 h2 {
     margin-top: 5px;
 }
 
-.eighth_contain .header-8 p{
+.eighth_contain .header-8 p {
     font-size: 11px;
 }
 
-.eighth_contain .bottom-8 .bottom-up-8 img{
+.eighth_contain .bottom-8 .bottom-up-8 img {
     width: 20px;
     height: 20px;
 }
 
-.bottom-up-8 .star_mark img{
+.bottom-up-8 .star_mark img {
     width: 12px;
     height: 12px;
     float: left;
+}
+
+
+/*
+    Nineth container 
+*/
+
+.nineth_bg {
+    background-color: #FFDFB6;
+}
+
+.animtd-circle-text h4 {
+    color: #FFB255;
 }
