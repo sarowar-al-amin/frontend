@@ -646,3 +646,37 @@ p {
 svg.radial-progress circle {
     stroke: #F1AF5F;
 }
+
+
+/*
+=====================================
+=====================================
+    Lead Generation
+=====================================
+=====================================
+*/
+
+.lead_second_bg {
+    background-color: #f3e3d0;
+}
+
+.lead_second_first {
+    width: 320px;
+    float: left;
+}
+
+.lead_second_first .list_wrapper .check_circle_text {
+    padding-bottom: 17px;
+}
+
+.lead_second_second {
+    width: 320px;
+    float: left;
+}
+
+.lead_second_second img {
+    padding: 10px;
+    padding-left: 50px;
+    width: 164px;
+    height: 273px;
+}
