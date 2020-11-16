@@ -622,6 +622,27 @@ p {
     background-color: #FFDFB6;
 }
 
-.animtd-circle-text h4 {
+.animated_circle {
+    float: left;
+}
+
+.animtd-circle-text {
+    width: 325px;
+}
+
+.animtd-text-head {
+    padding-top: 30px;
+}
+
+.animtd-text-head h4 {
     color: #FFB255;
+}
+
+.animtd-circle-img {
+    float: left;
+    width: 225px;
+}
+
+svg.radial-progress circle {
+    stroke: #F1AF5F;
 }
