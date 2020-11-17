@@ -796,3 +796,22 @@ h6 {
 .lead_fifth_contain .lead_fifth_top p {
     font-size: 11px;
 }
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part {
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part img {
+    width: 50px;
+    height: 50px;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part h4 {
+    font-size: 14px;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part p {
+    font-size: 9px;
+}
