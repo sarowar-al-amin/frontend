@@ -688,3 +688,87 @@ svg.radial-progress circle {
 .lead_second_third .list_wrapper .lead_padding {
     padding-bottom: 17px;
 }
+
+.lead_package .head_bar {
+    padding-bottom: 10px;
+}
+
+.lead_package .head_bar .bar {
+    padding-bottom: 10px;
+}
+
+.packages {
+    width: 320px;
+}
+
+.package_head_bg {
+    background-color: #FFDFB6;
+}
+
+.packages .package_head {
+    padding-bottom: 15px;
+    border-radius: 4px;
+}
+
+.packages .package_head img {
+    padding-top: 20px;
+    width: 17px;
+    height: 17px;
+    display: block;
+    margin: 0 auto;
+}
+
+.packages .package_head h4,
+h6 {
+    color: #F1AF5F;
+}
+
+.packages .package_head h4 {
+    padding-left: 110px;
+}
+
+.packages .package_head h6 {
+    padding-left: 75px;
+}
+
+.packages .package_required h5 {
+    padding: 5px 120px;
+    border-radius: 5px;
+}
+
+.package_wrapper .packages .package_required h6 {
+    color: black;
+    display: block;
+    margin: 4px auto;
+}
+
+.package_wrapper .packages .package_we_provide h6 {
+    color: black;
+    margin: 4px auto;
+}
+
+.packages .package_we_provide h5 {
+    padding: 5px 115px;
+    border-radius: 5px;
+}
+
+.package_purchase {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 2px;
+    border-radius: 2px;
+}
+
+.package_purchase .purchase {
+    padding-top: 5px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    background-color: #F1AF5F;
+}
+
+.purchase a {
+    margin-top: 6px;
+    padding-left: 20px;
+    font-weight: 90;
+    color: #ffffff;
+}
