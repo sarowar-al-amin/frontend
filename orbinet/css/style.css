@@ -774,3 +774,25 @@ h6 {
     font-weight: 90;
     color: #ffffff;
 }
+
+
+/*
+    Fifth container of lead generation
+*/
+
+.lead_fifth_contain {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.lead_fifth_contain .lead_fifth_top {
+    width: 200px;
+}
+
+.lead_fifth_contain .lead_fifth_top h2 {
+    font-size: 16px;
+}
+
+.lead_fifth_contain .lead_fifth_top p {
+    font-size: 11px;
+}
