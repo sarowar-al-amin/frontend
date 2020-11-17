@@ -699,6 +699,8 @@ svg.radial-progress circle {
 
 .packages {
     width: 320px;
+    padding-right: 3px;
+    float: left;
 }
 
 .package_head_bg {
