@@ -910,3 +910,26 @@ h6 {
 .graphic_first_contain .piority ul li a {
     color: black;
 }
+
+
+/*
+    Second container of graphics design
+*/
+
+.option_to_peak {
+    height: 30px;
+}
+
+.option_to_peak .first_option {
+    width: 60px;
+    height: 25px;
+    border: 1px solid #FFBD55;
+    border-radius: 2px;
+    float: left;
+}
+
+.option_to_peak .first_option a {
+    color: black;
+    padding-top: 3px;
+    padding-left: 19px;
+}
