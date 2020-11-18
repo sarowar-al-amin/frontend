@@ -815,3 +815,59 @@ h6 {
 .lead_fifth_contain .bottom_lead_fifth .operation_part p {
     font-size: 9px;
 }
+
+
+/*
+    Sixthh container of Lead generation
+*/
+
+.lead_sixth_contain {
+    height: 102px;
+    background-color: #F1AF5F;
+}
+
+.lead_six_left_img {
+    float: left;
+}
+
+.lead_six_left_img img {
+    width: 150px;
+    height: 100px;
+}
+
+.lead_six_right_img {
+    float: right;
+}
+
+.lead_six_right_img img {
+    margin-top: 5px;
+    height: 90px;
+    width: 150px;
+}
+
+.lead_sixth_contain .container .lead_six_text {
+    width: 650px;
+    height: 35px;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.lead_sixth_contain .container .lead_six_text h4 {
+    width: auto;
+    color: #ffffff;
+    float: left;
+}
+
+.lead_sixth_contain .container .lead_six_text .contact_us_box {
+    float: right;
+    width: 100px;
+    height: 30px;
+    background: linear-gradient(#FFE855, #FFBD55, #F1AF5F);
+}
+
+.lead_sixth_contain .container .lead_six_text .contact_us_box a {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: #ffffff;
+}
