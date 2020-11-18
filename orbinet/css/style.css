@@ -660,6 +660,10 @@ svg.radial-progress circle {
 =====================================
 */
 
+.lead_head_pic {
+    height: 200px;
+}
+
 .lead_background img {
     width: 1345px;
     opacity: 0.3;
