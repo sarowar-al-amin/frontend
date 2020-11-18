@@ -925,7 +925,7 @@ h6 {
     height: 25px;
     border: 1px solid #FFBD55;
     margin-right: 5px;
-    border-radius: 2px;
+    border-radius: 4px;
     padding-left: 5px;
     float: left;
 }
@@ -940,23 +940,17 @@ h6 {
     width: 70px;
     height: 25px;
     border: 1px solid #FFBD55;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 5px;
     padding-left: 5px;
     float: left;
-}
-
-.option_to_peak .txt_color a {
-    color: black;
-    padding-top: 3px;
-    padding-left: 15px;
 }
 
 .option_to_peak .third_option {
     width: 90px;
     height: 25px;
     border: 1px solid #FFBD55;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 5px;
     padding-left: 5px;
     float: left;
@@ -966,7 +960,7 @@ h6 {
     width: 70px;
     height: 25px;
     border: 1px solid #FFBD55;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 5px;
     padding-left: 5px;
     float: left;
@@ -976,7 +970,7 @@ h6 {
     width: 200px;
     height: 25px;
     border: 1px solid #FFBD55;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 5px;
     padding-left: 5px;
     float: left;
@@ -986,8 +980,54 @@ h6 {
     width: 140px;
     height: 25px;
     border: 1px solid #FFBD55;
-    border-radius: 2px;
+    border-radius: 4px;
     margin-right: 5px;
     padding-left: 5px;
     float: left;
+}
+
+.option_to_peak .txt_color a {
+    color: black;
+    padding-top: 3px;
+    padding-left: 15px;
+    transition: all 0.5s ease;
+}
+
+.option_to_peak .txt_color:hover {
+    background-color: #FFBD55;
+    color: #ffffff;
+}
+
+
+/*
+    Third container of graphics design
+*/
+
+.thrid_graphics_contain .options_view {
+    width: 300px;
+    padding-right: 10px;
+    float: left;
+}
+
+.thrid_graphics_contain .options_view img {
+    width: 300px;
+}
+
+.thrid_graphics_contain .options_view h4 {
+    width: 120px;
+    float: left;
+}
+
+.thrid_graphics_contain .options_view .price_tag {
+    width: 50px;
+    height: 25px;
+    background-color: #FFBD55;
+    border-radius: 5px;
+    float: right;
+}
+
+.thrid_graphics_contain .options_view .price_tag a {
+    margin-top: 5px;
+    padding-left: 5px;
+    color: #ffffff;
 }
