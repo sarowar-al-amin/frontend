@@ -660,6 +660,11 @@ svg.radial-progress circle {
 =====================================
 */
 
+.lead_background img {
+    width: 1345px;
+    opacity: 0.3;
+}
+
 .lead_second_bg {
     background-color: #f3e3d0;
 }
