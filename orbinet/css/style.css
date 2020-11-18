@@ -880,3 +880,33 @@ h6 {
     font-size: 12px;
     color: #ffffff;
 }
+
+
+/*
+=====================================
+    Graphics Design
+=====================================
+*/
+
+.graphic_first_contain .description {
+    float: left;
+}
+
+.graphic_first_contain .description p {
+    font-size: 12px;
+}
+
+.graphic_first_contain .piority {
+    width: 90px;
+    height: 25px;
+    border: 2px solid #FFB255;
+    float: right;
+}
+
+.graphic_first_contain .piority ul {
+    list-style-type: none;
+}
+
+.graphic_first_contain .piority ul li a {
+    color: black;
+}
