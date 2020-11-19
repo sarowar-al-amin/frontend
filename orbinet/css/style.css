@@ -1151,6 +1151,11 @@ h6 {
     padding-left: none;
 }
 
+
+/* 
+    Input Various data from user
+*/
+
 .right_side_of_payment .input_text {
     height: 55px;
     padding-bottom: 5px;
@@ -1158,7 +1163,6 @@ h6 {
 }
 
 .input_text .input_area input {
-    width: 220px;
     height: 20px;
     float: left;
 }
