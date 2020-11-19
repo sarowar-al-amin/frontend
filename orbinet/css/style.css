@@ -1109,3 +1109,17 @@ h6 {
 .upload_point .input_file input {
     background: #FFB255;
 }
+
+.continue {
+    width: 75px;
+    height: 30px;
+    background-color: #e78a17;
+    border-bottom: 20px;
+    border-radius: 5px;
+}
+
+.continue h4 {
+    padding-top: 5px;
+    padding-left: 5px;
+    color: #ffffff;
+}
