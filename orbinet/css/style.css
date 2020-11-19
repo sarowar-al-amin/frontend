@@ -1205,3 +1205,16 @@ h6 {
     float: left;
     padding-right: 30px;
 }
+
+
+/*
+    Buy botton
+*/
+
+.buy_botton {
+    margin-top: 20px;
+    width: 50px;
+    height: 25px;
+    color: #ffffff;
+    background-color: #F1AF5F;
+}
