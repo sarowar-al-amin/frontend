@@ -1123,3 +1123,26 @@ h6 {
     padding-left: 5px;
     color: #ffffff;
 }
+
+
+/*
+    Check out page 
+*/
+
+.right_side_of_payment .option_images {
+    height: 30px;
+}
+
+.option_images .image_no {
+    float: left;
+}
+
+.option_images .image_no a img {
+    width: 65px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.option_images .image_no:first-child {
+    padding-left: none;
+}
