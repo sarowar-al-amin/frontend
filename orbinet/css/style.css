@@ -1063,3 +1063,49 @@ h6 {
     padding-top: 10px;
     color: black;
 }
+
+.upload_point {
+    padding-top: 10px;
+    border: 1px solid #9e9b99;
+    margin-bottom: 10px;
+}
+
+.upload_point .cloud_image {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.upload_point .cloud_image a {
+    width: 50px;
+    height: 50px;
+}
+
+.upload_point .cloud_image a img {
+    width: 45px;
+    height: 45px;
+}
+
+.upload_point .text {
+    height: 50px;
+    width: 140px;
+    margin: 0 auto;
+}
+
+.upload_point .text h4 {
+    font-size: 15px;
+}
+
+.upload_point .text h6 {
+    color: black;
+}
+
+.upload_point .input_file {
+    width: 100px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.upload_point .input_file input {
+    background: #FFB255;
+}
