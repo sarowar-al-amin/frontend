@@ -1129,6 +1129,10 @@ h6 {
     Check out page 
 */
 
+.right_side_of_payment {
+    width: 480px;
+}
+
 .right_side_of_payment .option_images {
     height: 30px;
 }
@@ -1145,4 +1149,55 @@ h6 {
 
 .option_images .image_no:first-child {
     padding-left: none;
+}
+
+.right_side_of_payment .input_text {
+    height: 55px;
+    padding-bottom: 5px;
+    border: 1px solid #706f6e;
+}
+
+.input_text .input_area input {
+    width: 220px;
+    height: 20px;
+    float: left;
+}
+
+.input_text .text_head .text_wrapper {
+    padding-bottom: 30px;
+}
+
+.input_text .input_area .selected_method {
+    float: right;
+    border: 1px solid #9e9b99;
+    border-radius: 3px;
+}
+
+.input_text .text_head .text_wrapper .text1 {
+    height: 17px;
+    float: left;
+}
+
+.input_text .text_head .text_wrapper .text1 h6 {
+    width: 70px;
+    height: 17px;
+    color: black;
+}
+
+.input_text .text_head .text_wrapper .text2 {
+    height: 17px;
+    padding-left: 300px;
+    float: left;
+}
+
+.input_text .text_head .text_wrapper .text2 h6 {
+    width: 50px;
+    height: 17px;
+    color: black;
+}
+
+.input_text .input_area .input_no {
+    width: 30px;
+    float: left;
+    padding-right: 30px;
 }
