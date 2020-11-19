@@ -1031,3 +1031,35 @@ h6 {
     padding-left: 5px;
     color: #ffffff;
 }
+
+
+/*
+    File upload in lead generation 
+*/
+
+.step_bar {
+    float: left;
+}
+
+.step_bar .bar1 {
+    float: left;
+    width: 50px;
+    height: 7px;
+    background-color: #FFB255;
+    border-radius: 1px;
+    margin-right: 15px;
+}
+
+.step_bar .bar_ashes {
+    float: left;
+    width: 50px;
+    height: 7px;
+    background-color: #706f6e;
+    border-radius: 1px;
+    margin-right: 15px;
+}
+
+.step_bar h6 {
+    padding-top: 10px;
+    color: black;
+}
