@@ -1267,3 +1267,28 @@ h6 {
     width: 100px;
     float: right;
 }
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box {
+    height: 25px;
+    border: 1px solid #000000;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_input {
+    float: left;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_input input {
+    width: 250px;
+    height: 21px;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_submit {
+    float: right;
+}
+
+.check_out_right_side .payment_tab .discount_code .promo_in_box .promo_submit input {
+    background-color: #FFBD55;
+    width: 61px;
+    height: 25px;
+    color: #ffffff;
+}
