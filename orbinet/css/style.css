@@ -1246,23 +1246,23 @@ h6 {
     color: #ffffff;
 }
 
-.payment_tab .per_unit_cost h4 {
+.payment_tab .file_info .per_unit_cost h4 {
     padding-top: 8px;
     padding-left: 155px;
 }
 
-.check_out_right_side .payment_tab .file_name .records {
-    height: 25px;
+.check_out_right_side .payment_tab .file_info .file_name .records {
+    height: 65px;
 }
 
-.check_out_right_side .payment_tab .file_name .records p {
+.check_out_right_side .payment_tab .file_info .file_name .records p {
     font-size: 15px;
     width: 280px;
     color: #9e9b99;
     float: left;
 }
 
-.check_out_right_side .payment_tab .file_name .records h6 {
+.check_out_right_side .payment_tab .file_info .file_name .records h6 {
     color: #000000;
     width: 100px;
     float: right;
