@@ -1321,3 +1321,15 @@ h6 {
     width: 480px;
     float: left;
 }
+
+.right_Of_contact {
+    width: 480px;
+    float: left;
+    padding-left: 20px;
+}
+
+.right_Of_contact .addresses .address {
+    width: 220px;
+    float: left;
+    padding-right: 20px;
+}
