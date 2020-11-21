@@ -911,6 +911,18 @@ h6 {
     color: black;
 }
 
+.graphic_first_contain .piority ul li {
+    position: relative;
+}
+
+.graphic_first_contain .piority ul li ul {
+    position: -9999px;
+}
+
+.graphic_first_contain .piority ul li ul:hover {
+    position: absolute;
+}
+
 
 /*
     Second container of graphics design
