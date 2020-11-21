@@ -1318,8 +1318,48 @@ h6 {
 */
 
 .left_Of_contact {
+    padding-top: 20px;
     width: 480px;
     float: left;
+}
+
+.left_Of_contact .name {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .name input {
+    width: 400px;
+    height: 25px;
+}
+
+.left_Of_contact .enter_email {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .enter_email input {
+    width: 400px;
+    height: 25px;
+}
+
+.left_Of_contact .message_box {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .message_box textarea {
+    width: 400px;
+    height: 115px;
+}
+
+.left_Of_contact .submit_botton {
+    padding-bottom: 10px;
+}
+
+.left_Of_contact .submit_botton input {
+    background-color: #FFBD55;
+    width: 70px;
+    height: 30px;
+    color: #ffffff;
+    border-radius: 5px;
 }
 
 .right_Of_contact {
