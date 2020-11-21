@@ -368,6 +368,7 @@ em {
 */
 
 .footer_col {
+    list-style-type: none;
     width: 240px;
     float: left;
     margin-right: 5px;
@@ -395,6 +396,10 @@ em {
 
 #footer_bottom p {
     margin-top: 5px;
+}
+
+#footer_bottom span i {
+    color: #BC833E;
 }
 
 
@@ -1303,4 +1308,16 @@ h6 {
     width: 61px;
     height: 25px;
     color: #ffffff;
+}
+
+
+/*
+    ===================================
+            Contact Us Page 
+    ===================================
+*/
+
+.left_Of_contact {
+    width: 480px;
+    float: left;
 }
