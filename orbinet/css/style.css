@@ -1494,6 +1494,7 @@ h6 {
 .upper_content .upper_left .left_portion {
     float: left;
     width: 380px;
+    display: block;
 }
 
 .upper_content .upper_left .left_portion .work_part {
@@ -1554,4 +1555,38 @@ h6 {
     font-size: 12px;
     padding-left: 6px;
     color: #ffffff;
+}
+
+
+/*
+ Dash bord upper right
+*/
+
+.upper_content .upper_left .upper_right_dash {
+    width: 350px;
+    float: left;
+    border: 1px solid #9e9b99;
+    display: block;
+}
+
+.upper_content .upper_left .upper_right_dash .header_part h3 {
+    width: 291px;
+    font-size: 15px;
+    padding-left: 60px;
+    background: #e4dbdb52;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post {
+    width: 320px;
+    border-bottom: 1px solid #9e9b99;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post img {
+    width: 25px;
+    height: 22px;
+    float: left;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post p {
+    font-size: 10px;
 }
