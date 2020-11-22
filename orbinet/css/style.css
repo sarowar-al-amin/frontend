@@ -1488,24 +1488,26 @@ h6 {
 
 .upper_content {
     float: left;
-    padding-left: 10px;
-}
-
-.upper_content .upper_left .left_portion .work_part {
-    float: left;
+    padding-left: 5px;
 }
 
 .upper_content .upper_left .left_portion {
+    float: left;
+    width: 380px;
+}
+
+.upper_content .upper_left .left_portion .work_part {
+    width: 390px;
     float: left;
 }
 
 .upper_content .upper_left .left_portion .work_part .work {
     float: left;
-    width: 100px;
+    width: 90px;
     height: 85px;
     background: linear-gradient(#e78a17, #FFE855);
     border: 1px solid #ffffff;
-    padding-left: 45px;
+    padding-left: 25px;
     padding-right: 1px;
 }
 
@@ -1526,4 +1528,30 @@ h6 {
     font-size: 9px;
     color: #ffffff;
     padding-left: 7px;
+}
+
+.upper_content .upper_left .left_portion .Admin_part {
+    float: left;
+}
+
+.upper_content .upper_left .left_portion .Admin_part .service {
+    float: left;
+    width: 90px;
+    height: 65px;
+    background: linear-gradient(#e78a17, #FFE855);
+    border: 1px solid #ffffff;
+    padding-left: 12px;
+}
+
+.upper_content .upper_left .left_portion .Admin_part .service img {
+    width: 20px;
+    height: 20px;
+    padding-left: 22px;
+    padding-top: 8px;
+}
+
+.upper_content .upper_left .left_portion .Admin_part .service h4 {
+    font-size: 12px;
+    padding-left: 6px;
+    color: #ffffff;
 }
