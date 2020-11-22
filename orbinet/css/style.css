@@ -1489,6 +1489,11 @@ h6 {
 .upper_content {
     float: left;
     padding-left: 5px;
+    border-bottom: 1px solid #e78a17;
+}
+
+.upper_content .upper_left {
+    border-bottom: 1px solid #e78a17;
 }
 
 .upper_content .upper_left .left_portion {
@@ -1563,9 +1568,11 @@ h6 {
 */
 
 .upper_content .upper_left .upper_right_dash {
-    width: 350px;
+    width: 390px;
+    padding-left: 10px;
     float: left;
     border: 1px solid #9e9b99;
+    border-right: none;
     display: block;
 }
 
@@ -1579,6 +1586,10 @@ h6 {
 .upper_content .upper_left .upper_right_dash .review_post {
     width: 320px;
     border-bottom: 1px solid #9e9b99;
+}
+
+.upper_content .upper_left .upper_right_dash .review_post:last-child {
+    border-bottom: none;
 }
 
 .upper_content .upper_left .upper_right_dash .review_post img {
