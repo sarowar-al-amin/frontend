@@ -1373,3 +1373,42 @@ h6 {
     float: left;
     padding-right: 20px;
 }
+
+
+/*
+================================
+    Dash Board Design
+================================
+*/
+
+#header .dashboard {
+    height: 120px;
+}
+
+#header .dashboard .logo_left {
+    padding-right: 70px;
+    float: left;
+}
+
+#header .dashboard .logo_left img {
+    width: 116px;
+    height: 90px;
+}
+
+#header .dashboard .user_info {
+    padding-right: 80px;
+    float: left;
+}
+
+#header .dashboard .user_info img {
+    width: 40px;
+    height: 40px;
+}
+
+#header .dashboard .user_info .user_name {
+    float: left;
+}
+
+#header .dashboard .user_info .user_name span i {
+    padding-left: 32px;
+}
