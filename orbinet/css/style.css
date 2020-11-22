@@ -1387,12 +1387,14 @@ h6 {
 
 #header .dashboard .logo_left {
     padding-right: 70px;
+    border-bottom: 1px solid #F1AF5F;
     float: left;
 }
 
 #header .dashboard .logo_left img {
     width: 116px;
     height: 90px;
+    padding-bottom: 10px;
 }
 
 #header .dashboard .user_info {
@@ -1430,4 +1432,51 @@ h6 {
 .dashboard .notification_bell {
     padding-top: 19px;
     float: right;
+}
+
+.iteams_container {
+    border: 1px solid #9e9b99;
+    width: 190px;
+    float: left;
+}
+
+.iteams_container .initial_part {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #9e9b99;
+}
+
+.iteams_container .initial_part ul {
+    list-style-type: none;
+}
+
+.iteams_container .initial_part ul li {
+    height: 30px;
+    transition: all 0.5s ease;
+}
+
+.iteams_container .initial_part ul li:hover {
+    background: #FFBD55;
+}
+
+.iteams_container .initial_part ul li a {
+    color: #4d4a48;
+}
+
+.iteams_container .ending_part {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #9e9b99;
+}
+
+.iteams_container .ending_part ul li {
+    height: 30px;
+    transition: all 0.5s ease;
+}
+
+.iteams_container .ending_part ul li:hover {
+    background: #F1AF5F;
+}
+
+.iteams_container .ending_part ul li a {
+    color: #4d4a48;
 }
