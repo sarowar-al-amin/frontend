@@ -1396,6 +1396,7 @@ h6 {
 }
 
 #header .dashboard .user_info {
+    margin-top: 25px;
     padding-right: 80px;
     float: left;
 }
@@ -1411,4 +1412,22 @@ h6 {
 
 #header .dashboard .user_info .user_name span i {
     padding-left: 32px;
+}
+
+.dashboard .search_bar {
+    padding-right: 20px;
+    float: left;
+}
+
+.dashboard .search_bar input {
+    margin-top: 20px;
+    width: 226px;
+    height: 35px;
+    border: 1px solid #F1AF5F;
+    border-radius: 5px;
+}
+
+.dashboard .notification_bell {
+    padding-top: 19px;
+    float: right;
 }
