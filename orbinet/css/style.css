@@ -1480,3 +1480,50 @@ h6 {
 .iteams_container .ending_part ul li a {
     color: #4d4a48;
 }
+
+
+/*
+    Content portion
+*/
+
+.upper_content {
+    float: left;
+    padding-left: 10px;
+}
+
+.upper_content .upper_left .left_portion .work_part {
+    float: left;
+}
+
+.upper_content .upper_left .left_portion {
+    float: left;
+}
+
+.upper_content .upper_left .left_portion .work_part .work {
+    float: left;
+    width: 100px;
+    height: 85px;
+    background: linear-gradient(#e78a17, #FFE855);
+    border: 1px solid #ffffff;
+    padding-left: 45px;
+    padding-right: 1px;
+}
+
+.upper_content .upper_left .left_portion .work_part .work img {
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.upper_content .upper_left .left_portion .work_part .work h4 {
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+.upper_content .upper_left .left_portion .work_part .work h5 {
+    font-size: 9px;
+    color: #ffffff;
+    padding-left: 7px;
+}
