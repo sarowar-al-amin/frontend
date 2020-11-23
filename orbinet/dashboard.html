@@ -9,6 +9,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!---- Our own css design --->
     <link rel="stylesheet" href="css/vendr-animtd-circle.css">
+    <link rel="stylesheet" href="css/progresscircle.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.css">
 </head>
@@ -213,6 +214,15 @@
                         </div>
                     </div>
                 </div>
+                <!-------Bottom left ends here!--->
+                <!--**********************-->
+
+                <!--==========Bottom right start here============-->
+                <div class="bottom_right">
+                    <div class="circlechart" data-percentage="90">jQuery</div>
+                    <div class="circlechart" data-percentage="30">Script</div>
+                    <div class="circlechart" data-percentage="85">.Net</div>
+                </div>
             </div>
         </div>
     </div>
@@ -220,8 +230,13 @@
 
     <!---------- JavaScript --------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jss/progresscircle.js"></script>
     <script src="jss/vendor-animated-circle.js"></script>
+    <!---Main javaScript -->
     <script src="jss/main.js"></script>
+    <script>
+        $('.circlechart').circlechart(); // Initialization
+    </script>
 
 </body>
 

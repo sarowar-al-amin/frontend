@@ -1646,3 +1646,18 @@ h6 {
     padding-left: 10px;
     font-size: 10px;
 }
+
+
+/*
+    Bottom right of the Dashboard
+*/
+
+.bottom_content .bottom_right {
+    float: left;
+}
+
+.bottom_content .bottom_right .circlechart {
+    float: left;
+    padding-right: 26px;
+    padding-top: 19px;
+}
