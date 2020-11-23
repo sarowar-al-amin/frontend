@@ -1658,6 +1658,8 @@ h6 {
 
 .bottom_content .bottom_right .circle_wrapper {
     width: 490px;
+    height: 100px;
+    padding-bottom: 9px;
 }
 
 .bottom_content .bottom_right .circle_wrapper .circle {
@@ -1695,4 +1697,29 @@ h6 {
 .bottom_content .bottom_right .circle_wrapper .circle .circlechart {
     float: left;
     padding-right: 10px;
+}
+
+
+/*
+    Dash board table
+*/
+
+.bottom_content .bottom_right .table_header h4 {
+    width: 100px;
+    height: 27px;
+    background: #85817e;
+    padding-top: 5px;
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+
+.bottom_content .bottom_right .table_data h4 {
+    width: 100px;
+    height: 27px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 14px;
+    float: left;
 }
