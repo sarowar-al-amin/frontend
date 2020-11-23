@@ -1437,6 +1437,7 @@ h6 {
 .iteams_container {
     border: 1px solid #9e9b99;
     width: 190px;
+    height: 100%;
     float: left;
 }
 
@@ -1599,5 +1600,36 @@ h6 {
 }
 
 .upper_content .upper_left .upper_right_dash .review_post p {
+    font-size: 10px;
+}
+
+
+/*
+    Bottom part of dash board
+*/
+
+.bottom_content {
+    padding-left: 10px;
+    float: left;
+}
+
+.bottom_content .bottom_left .digital_market .marketing {
+    width: 90px;
+    height: 65px;
+    background: #e78a17;
+    float: left;
+    border-right: 2px solid #ffffff;
+}
+
+.bottom_content .bottom_left .digital_market .marketing img {
+    width: 20px;
+    height: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.bottom_content .bottom_left .digital_market .marketing h5 {
+    color: #ffffff;
+    padding-left: 10px;
     font-size: 10px;
 }
