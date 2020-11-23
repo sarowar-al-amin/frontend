@@ -1706,7 +1706,7 @@ h6 {
 
 .bottom_content .bottom_right .table_header h4 {
     width: 100px;
-    height: 27px;
+    height: 23px;
     background: #85817e;
     padding-top: 5px;
     padding-left: 13px;
@@ -1715,11 +1715,31 @@ h6 {
     float: left;
 }
 
+.bottom_content .bottom_right .table_data {
+    height: 20px;
+}
+
 .bottom_content .bottom_right .table_data h4 {
     width: 100px;
-    height: 27px;
-    padding-top: 5px;
+    height: 20px;
+    padding-top: 3px;
     padding-left: 15px;
-    font-size: 14px;
+    font-size: 10px;
     float: left;
+}
+
+.bottom_content .bottom_right .table_data .back_color {
+    color: #F1AF5F;
+}
+
+.bg-color {
+    background: dimgrey;
+}
+
+.bottom_content .bottom_right .table_data .marked {
+    border-left: 1px solid #F1AF5F;
+}
+
+.bottom_content .bottom_right .table_data .endcheck {
+    border-right: 1px solid #F1AF5F;
 }
