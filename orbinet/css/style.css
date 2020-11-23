@@ -1613,6 +1613,19 @@ h6 {
     float: left;
 }
 
+.bottom_content .bottom_left {
+    float: left;
+    width: 200px;
+}
+
+.bottom_content .bottom_left .digital_market {
+    padding-bottom: 75px;
+}
+
+.bottom_content .bottom_left .digital_market h4 {
+    font-size: 15px;
+}
+
 .bottom_content .bottom_left .digital_market .marketing {
     width: 90px;
     height: 65px;
