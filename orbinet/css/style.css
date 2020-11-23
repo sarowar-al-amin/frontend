@@ -1656,8 +1656,43 @@ h6 {
     float: left;
 }
 
-.bottom_content .bottom_right .circlechart {
+.bottom_content .bottom_right .circle_wrapper {
+    width: 490px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle {
+    width: 160px;
+    height: 90px;
     float: left;
-    padding-right: 26px;
-    padding-top: 19px;
+    background: #f1dbb8;
+    padding-right: 1px;
+    border-right: 2px solid #ffffff;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle:last-child {
+    padding-right: none;
+    border-right: none;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h5 {
+    color: #e78a17;
+    font-size: 10px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h5:first-child {
+    font-size: 9px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h6 {
+    color: #e78a17;
+    font-size: 8px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle h6:first-child {
+    font-size: 7px;
+}
+
+.bottom_content .bottom_right .circle_wrapper .circle .circlechart {
+    float: left;
+    padding-right: 10px;
 }
