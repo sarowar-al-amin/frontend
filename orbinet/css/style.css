@@ -1952,3 +1952,16 @@ h6 {
     border-radius: 5px;
     border: 2px solid #FFBD55;
 }
+
+.left_graph_product .app_creators ul {
+    list-style-type: circle;
+    color: #FFBD55;
+}
+
+.left_graph_product .app_creators ul li {
+    list-style-type: circle;
+}
+
+.left_graph_product .app_creators ul li a {
+    color: #FFBD55;
+}
