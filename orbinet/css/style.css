@@ -1482,6 +1482,23 @@ h6 {
     color: #4d4a48;
 }
 
+.iteams_container .logout {
+    list-style-type: none;
+}
+
+.iteams_container .logout li {
+    height: 30px;
+    transition: all 0.6s ease;
+}
+
+.iteams_container .logout li:hover {
+    background: #F1AF5F;
+}
+
+.iteams_container .logout li a {
+    color: #4d4a48;
+}
+
 
 /*
     Content portion
