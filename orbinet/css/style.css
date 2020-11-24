@@ -1760,3 +1760,81 @@ h6 {
 .bottom_content .bottom_right .table_data .endcheck {
     border-right: 1px solid #F1AF5F;
 }
+
+
+/*
+    ***************************
+    Lead generation dashboard
+    ***************************
+*/
+
+.upper_content .lead_upper_left {}
+
+.upper_content .lead_upper_left .left_portion {
+    width: 500px;
+    float: left;
+}
+
+.upper_content .lead_upper_left .left_portion .work {
+    float: left;
+    width: 90px;
+    height: 85px;
+    background: linear-gradient(#e78a17, #FFE855);
+    border: 1px solid #ffffff;
+    padding-left: 25px;
+    padding-right: 1px;
+}
+
+.upper_content .lead_upper_left .left_portion .work_part .work img {
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+    padding-left: 25px;
+}
+
+.upper_content .lead_upper_left .left_portion .work_part .work h4 {
+    font-size: 12px;
+    color: #ffffff;
+    padding-left: 25px;
+}
+
+.upper_content .lead_upper_left .left_portion .work_part .work h5 {
+    font-size: 9px;
+    color: #ffffff;
+    padding-left: 7px;
+}
+
+
+/*Right part/post/review */
+
+.upper_content .lead_upper_left .upper_right_dash {
+    width: 260px;
+    float: left;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .header_part {
+    background: #e4dbdb52;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .header_part h3 {
+    font-size: 12px;
+    padding-left: 60px;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post {
+    border-bottom: 1px solid #9e9b99;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post:last-child {
+    border-bottom: none;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post img {
+    width: 25px;
+    height: 22px;
+    float: left;
+}
+
+.upper_content .lead_upper_left .upper_right_dash .review_post p {
+    font-size: 8px;
+}
