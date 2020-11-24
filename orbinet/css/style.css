@@ -1836,3 +1836,38 @@ h6 {
 .upper_content .lead_upper_left .upper_right_dash .review_post p {
     font-size: 8px;
 }
+
+
+/*
+    *****************************
+    Graphics design product list
+    *****************************
+*/
+
+.left_graph_product {
+    width: 50%;
+    float: left;
+}
+
+.left_graph_product .preview_image {
+    height: 300px;
+}
+
+.left_graph_product .preview_image img {
+    height: 300px;
+}
+
+.left_graph_product .documentation {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.left_graph_product .documentation a {
+    background: rgb(64, 192, 224);
+    color: #ffffff;
+    font-size: 20px;
+    width: 60px;
+    height: 35px;
+    margin-left: 250px;
+    border-radius: 3px;
+}
