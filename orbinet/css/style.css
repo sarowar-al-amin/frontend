@@ -1850,11 +1850,11 @@ h6 {
 }
 
 .left_graph_product .preview_image {
-    height: 300px;
+    height: 250px;
 }
 
 .left_graph_product .preview_image img {
-    height: 300px;
+    height: 250px;
 }
 
 .left_graph_product .documentation {
@@ -1868,6 +1868,69 @@ h6 {
     font-size: 20px;
     width: 60px;
     height: 35px;
-    margin-left: 250px;
+    margin-left: 180px;
     border-radius: 3px;
+}
+
+
+/*
+    Help  Bar design
+*/
+
+.help_bar {
+    height: 80px;
+    background: linear-gradient( rgb(241, 142, 28), rgb(228, 215, 143));
+}
+
+.help_bar .image img {
+    width: 80px;
+    height: 80px;
+}
+
+.help_bar .image:first-child {
+    float: left;
+}
+
+.help_bar .image img:last-child {
+    float: right;
+}
+
+.help_bar .help_box img {
+    width: 23px;
+    height: 23px;
+    float: left;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.help_bar .help_box {
+    width: 200px;
+    height: 60px;
+    float: left;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+
+.help_bar .help_box h4 {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.help_bar .support_hour {
+    float: left;
+    width: 120px;
+    height: 80px;
+    font-size: 10px;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+.help_bar .support_hour img {
+    width: 35px;
+    height: 35px;
+    float: left;
+    padding: 10px;
 }
