@@ -1981,3 +1981,47 @@ h6 {
     font-size: 15px;
     color: #FFB255;
 }
+
+.left_graph_product .fonts_graphic li a {
+    font-size: 15px;
+    color: #FFB255;
+}
+
+
+/*
+    Right portion of graphic product list
+*/
+
+.right_graph_product {
+    float: left;
+    border-left: 10px;
+}
+
+.right_graph_product .upper_box {
+    padding-left: 10px;
+}
+
+.right_graph_product .upper_box h2 {
+    width: 100%;
+    padding-left: 117px;
+    background: linear-gradient(rgb(201, 196, 196), #ffff);
+}
+
+.right_graph_product .upper_box .type_tag {
+    width: 100%;
+}
+
+.right_graph_product .upper_box .type_tag h3 {
+    width: 200px;
+}
+
+.right_graph_product .upper_box .type_tag h3:first-child {
+    float: left;
+}
+
+.right_graph_product .upper_box .type_tag h3:last-child {
+    float: right;
+    color: #F1AF5F;
+    font-weight: 200;
+    padding-left: 69px;
+}
