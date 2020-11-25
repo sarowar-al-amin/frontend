@@ -2067,3 +2067,24 @@ h6 {
     padding: 5px;
     border-radius: 5px;
 }
+
+.right_graph_product .lower_box {
+    border: 1px solid #f3e3d0;
+    border-top: none;
+    margin-top: 35px;
+}
+
+.right_graph_product .lower_box h2 {
+    border-top: 1px solid #f3e3d0;
+    border-bottom: 1px solid #f3e3d0;
+    font-weight: 150;
+}
+
+.right_graph_product .lower_box h3 {
+    font-size: 17px;
+    border-bottom: 1px solid #f3e3d0;
+}
+
+.right_graph_product .lower_box h3:last-child {
+    border-bottom: none;
+}
