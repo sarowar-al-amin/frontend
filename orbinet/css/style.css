@@ -1965,3 +1965,14 @@ h6 {
 .left_graph_product .app_creators ul li a {
     color: #FFBD55;
 }
+
+.left_graph_product .icons_graph li {
+    font: arial;
+    font-size: 12px;
+    color: #000000;
+}
+
+.left_graph_product .icons_graph li a {
+    font-size: 12px;
+    color: #BC833E;
+}
