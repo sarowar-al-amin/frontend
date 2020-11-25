@@ -1995,28 +1995,32 @@ h6 {
 .right_graph_product {
     float: left;
     border-left: 10px;
+    padding-left: 10px;
+    width: 460px;
 }
 
 .right_graph_product .upper_box {
-    padding-left: 10px;
+    border: 1px solid #f3e3d0;
+    border-top: none;
 }
 
 .right_graph_product .upper_box h2 {
-    width: 100%;
     padding-left: 117px;
     background: linear-gradient(rgb(201, 196, 196), #ffff);
 }
 
 .right_graph_product .upper_box .type_tag {
-    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #ddd9d6;
 }
 
 .right_graph_product .upper_box .type_tag h3 {
-    width: 200px;
+    width: 45px;
 }
 
 .right_graph_product .upper_box .type_tag h3:first-child {
     float: left;
+    padding-left: 10px;
 }
 
 .right_graph_product .upper_box .type_tag h3:last-child {
@@ -2024,4 +2028,42 @@ h6 {
     color: #F1AF5F;
     font-weight: 200;
     padding-left: 69px;
+}
+
+.right_graph_product .upper_box .note {
+    height: 35px;
+    padding-left: 8px;
+    background: #f0efec;
+}
+
+.right_graph_product .upper_box .note p {
+    font-size: 12px;
+}
+
+.right_graph_product .upper_box .license_botton {
+    padding: 8px;
+    padding-left: 144px;
+    height: 20px;
+    border-bottom: 1px solid #f8f2e9;
+}
+
+.right_graph_product .upper_box .license_botton a {
+    background: linear-gradient( #F1A255, #552e08);
+    color: #ffff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.right_graph_product .upper_box .buy2_botton {
+    padding: 8px;
+    padding-left: 185px;
+    height: 20px;
+    border-bottom: 1px solid #f8f2e9;
+}
+
+.right_graph_product .upper_box .buy2_botton a {
+    background: linear-gradient(#305725, #8d5216);
+    color: #ffff;
+    padding: 5px;
+    border-radius: 5px;
 }
