@@ -2088,3 +2088,78 @@ h6 {
 .right_graph_product .lower_box h3:last-child {
     border-bottom: none;
 }
+
+
+/*
+    Settings form
+*/
+
+.settings_form {
+    width: 770px;
+    padding-left: 10px;
+    float: left;
+}
+
+.settings_form .head_setting {
+    border-bottom: 1px solid #f1dbb8;
+    height: 45px;
+    padding-bottom: 5px;
+}
+
+.settings_form .form_point form .admin_color_option {
+    border-bottom: 1px solid #f1dbb8;
+    height: 35px;
+}
+
+.settings_form .form_point form .admin_color_option h5 {
+    width: 125px;
+    float: left;
+}
+
+.settings_form .form_point form .admin_color_option .classic {
+    float: left;
+    width: 150px;
+    font-family: italic;
+}
+
+.settings_form .form_point form .admin_color_option .classic input {
+    width: 30px;
+}
+
+.settings_form .form_point form .admin_color_option .dark {
+    float: left;
+    width: 150px;
+    font-family: italic;
+}
+
+.settings_form .form_point form .admin_color_option .dark input {
+    width: 30px;
+}
+
+.settings_form .form_point form .user_name {
+    border-bottom: 1px solid #f1dbb8;
+    display: block;
+}
+
+.settings_form .form_point form .user_name h4 {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.settings_form .form_point form .user_name .name {
+    padding: 1px;
+}
+
+.settings_form .form_point form .user_name .name h6 {
+    width: 111px;
+    font-size: 15px;
+    color: #000000;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.settings_form .form_point form .user_name .name input {
+    width: 250px;
+    height: 20px;
+    border: 1px solid #f1dbb8;
+}
