@@ -2126,8 +2126,9 @@ h6 {
 
 .settings_form .form_point form .admin_color_option .classic {
     float: left;
-    width: 150px;
+    width: 148px;
     font-family: italic;
+    margin-top: 10px;
 }
 
 .settings_form .form_point form .admin_color_option .classic input {
@@ -2136,8 +2137,9 @@ h6 {
 
 .settings_form .form_point form .admin_color_option .dark {
     float: left;
-    width: 150px;
+    width: 148px;
     font-family: italic;
+    margin-top: 10px;
 }
 
 .settings_form .form_point form .admin_color_option .dark input {
@@ -2146,7 +2148,8 @@ h6 {
 
 .settings_form .form_point form .user_name {
     border-bottom: 1px solid #f1dbb8;
-    display: block;
+    height: 213px;
+    /* display: block; */
 }
 
 .settings_form .form_point form .user_name h4 {
@@ -2159,7 +2162,7 @@ h6 {
 }
 
 .settings_form .form_point form .user_name .name h6 {
-    width: 111px;
+    width: 155px;
     font-size: 15px;
     color: #000000;
     float: left;
@@ -2170,6 +2173,27 @@ h6 {
     width: 250px;
     height: 20px;
     border: 1px solid #f1dbb8;
+}
+
+.settings_form .form_point form .about_yourself {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #FFBD55;
+}
+
+.settings_form .form_point form .about_yourself .bioInfo h6 {
+    width: 150px;
+    float: left;
+}
+
+.settings_form .form_point form .about_yourself .bioInfo textarea {
+    width: 350px;
+    height: 50px;
+    border: 1px solid #FFBD55;
+}
+
+.settings_form .form_point form .about_yourself .profile_info h6 {
+    width: 150px;
+    float: left;
 }
 
 
