@@ -2196,6 +2196,70 @@ h6 {
     float: left;
 }
 
+.settings_form .form_point form .account_management {
+    border-bottom: 1px solid #FFB255;
+    padding-bottom: 10px;
+}
+
+.settings_form .form_point form .account_management .changingPassword {
+    width: 100%;
+    height: 60px;
+}
+
+.settings_form .form_point form .account_management .changingPassword h5 {
+    color: #000000;
+    font-size: 15px;
+    width: 150px;
+    float: left;
+}
+
+.settings_form .form_point form .account_management .changingPassword .changePasswordBotton {
+    width: 140px;
+    height: 25px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background: #FFB255;
+    float: left;
+}
+
+.settings_form .form_point form .account_management .changingPassword .changePasswordBotton a {
+    color: #ffffff;
+}
+
+.settings_form .form_point form .account_management .session {
+    width: 100%;
+    height: 30px;
+}
+
+.settings_form .form_point form .account_management .session h5 {
+    width: 150px;
+    float: left;
+}
+
+.settings_form .form_point form .account_management .session .botton_session a {
+    width: 350px;
+    height: 25px;
+    border: 1px solid #FFB255;
+    border-radius: 5px;
+    color: #FFB255;
+}
+
+
+/* .settings_form .form_point form .update {
+    width: 60px;
+    height: 30px;
+    background: #FFB255;
+    border-radius: 5px;
+} */
+
+.settings_form .form_point form .update span input {
+    color: #ffff;
+    width: 60px;
+    height: 30px;
+    background: #FFB255;
+    border-radius: 5px;
+}
+
 
 /*
     Entering Owner Name 
