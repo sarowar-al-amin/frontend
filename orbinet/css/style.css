@@ -2161,6 +2161,26 @@ h6 {
     padding: 1px;
 }
 
+
+/* For radio botton */
+
+.settings_form .form_point form .user_name .name_radio {
+    padding: 1px;
+}
+
+.settings_form .form_point form .user_name .name_radio h4 sup i {
+    width: 3px;
+    height: 3px;
+    color: red;
+}
+
+
+/* Radio botton in setting ends here */
+
+.settings_form .form_point form .user_name .name h4 sup i {
+    color: red;
+}
+
 .settings_form .form_point form .user_name .name h6 {
     width: 155px;
     font-size: 15px;
@@ -2173,6 +2193,15 @@ h6 {
     width: 250px;
     height: 20px;
     border: 1px solid #f1dbb8;
+}
+
+
+/* For text area in settings */
+
+.settings_form .form_point form .user_name .name textarea {
+    width: 450px;
+    height: 60px;
+    border: 1px solid #F1AF5F;
 }
 
 .settings_form .form_point form .about_yourself {
