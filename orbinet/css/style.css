@@ -405,6 +405,19 @@ em {
 
 /* Side design  */
 
+.first_con_bg .design_of_first_con img {
+    width: 50px;
+    height: 300px;
+}
+
+.first_con_bg .design_of_first_con img:first-child {
+    float: left;
+}
+
+.first_con_bg .design_of_first_con img:last-child {
+    float: right;
+}
+
 
 /*
     ========================================
