@@ -407,6 +407,11 @@ em {
     color: #BC833E;
 }
 
+.white_bar_at_footer {
+    height: 1px;
+    background-color: white;
+}
+
 
 /* Side design  */
 
