@@ -95,15 +95,15 @@ em {
     z-index: 999;
 }
 
-#header>nav #menu_bar {
+#header>nav #menu {
     list-style-type: none;
 }
 
-#header>nav #menu_bar li {
+#header>nav #menu li {
     float: left;
 }
 
-#header>nav #menu_bar li a {
+#header>nav #menu li a {
     display: block;
     color: black;
     font-family: lato;
@@ -111,23 +111,23 @@ em {
     padding: 15px 8px;
 }
 
-#header>nav #menu_bar li {
+#header>nav #menu li {
     position: relative;
     list-style-type: none;
 }
 
-#header>nav #menu_bar li ul {
+#header>nav #menu li ul {
     position: absolute;
     left: -9999px;
 }
 
-#header>nav #menu_bar li:hover ul {
+#header>nav #menu li:hover ul {
     left: 0;
 }
 
 
 /*
-#header>nav #menu_bar li:last-child{
+#header>nav #menu li:last-child{
     padding-right: none;
     width: 55px;
     height: 30px;
@@ -136,11 +136,11 @@ em {
 }
 */
 
-#header>nav #menu_bar li a:hover {
+#header>nav #menu li a:hover {
     color: #FFB255;
 }
 
-#header>nav #menu_bar li.active a {
+#header>nav #menu li.active a {
     color: #FFB255;
 }
 
@@ -149,12 +149,12 @@ em {
     Design for sign in 
 */
 
-#header>nav #menu_bar li #sign_in {
+#header>nav #menu li #sign_in {
     margin-top: 10px;
     padding-bottom: 10px;
 }
 
-#header>nav #menu_bar li #sign_in a {
+#header>nav #menu li #sign_in a {
     width: 38px;
     background-color: #FFB255;
     border-radius: 3px;
