@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: sans-serif, Arial, !important;
+    font-family: Roboto;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
@@ -91,38 +91,34 @@ em {
     float: right;
 }
 
-#header>nav ul {
+#header>nav #menu ul {
+    list-style-type: none;
     z-index: 999;
 }
 
-#header>nav #menu {
-    list-style-type: none;
-}
-
-#header>nav #menu li {
+#header>nav #menu ul li {
     float: left;
 }
 
-#header>nav #menu li a {
+#header>nav #menu ul li a {
     display: block;
     color: black;
-    font-family: lato;
+    font-family: Roboto;
     font-size: 12px;
-    padding: 15px 8px;
+    padding: 5px 8px;
 }
 
-#header>nav #menu li {
+#header>nav #menu ul li {
     position: relative;
-    list-style-type: none;
 }
 
-#header>nav #menu li ul {
+#header>nav #menu ul li ul {
     position: absolute;
     left: -9999px;
 }
 
-#header>nav #menu li:hover ul {
-    left: 0;
+#header>nav #menu ul li:hover ul {
+    left: 0px;
 }
 
 
@@ -136,11 +132,11 @@ em {
 }
 */
 
-#header>nav #menu li a:hover {
+#header>nav #menu ul li a:hover {
     color: #FFB255;
 }
 
-#header>nav #menu li.active a {
+#header>nav #menu ul li.active a {
     color: #FFB255;
 }
 
@@ -149,12 +145,12 @@ em {
     Design for sign in 
 */
 
-#header>nav #menu li #sign_in {
+#header>nav #menu ul li #sign_in {
     margin-top: 10px;
     padding-bottom: 10px;
 }
 
-#header>nav #menu li #sign_in a {
+#header>nav #menu ul li #sign_in a {
     width: 38px;
     background-color: #FFB255;
     border-radius: 3px;
@@ -169,6 +165,14 @@ em {
 .left_side_content {
     width: 485px;
     float: left;
+}
+
+.left_side_content h2 {
+    font-family: Roboto;
+}
+
+.left_side_content p {
+    font-family: Roboto;
 }
 
 .right_side_content {
@@ -201,8 +205,9 @@ em {
     float: left;
     width: 20px;
     height: 4px;
+    margin-right: 3px;
     background-color: #FFB255;
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 
@@ -215,7 +220,7 @@ em {
     width: 30px;
     height: 4px;
     background-color: rgb(64, 192, 224);
-    border-radius: 1px;
+    border-radius: 2px;
 }
 
 
@@ -349,7 +354,7 @@ em {
 }
 
 .footer_col h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     font-weight: 80;
     color: #e78a17;
 }
@@ -360,7 +365,7 @@ em {
 */
 
 .footer_p p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     font-size: 12px;
     color: #ffffff;
 }
@@ -368,7 +373,7 @@ em {
 .footer_p a {
     font-size: 12px;
     color: #e78a17;
-    font-family: cursive;
+    font-family: Roboto;
 }
 
 
@@ -442,7 +447,7 @@ em {
 
 .contain_second .left_side_content h2 {
     font-size: 16px;
-    font-family: cursive;
+    font-family: Roboto;
     color: #FFB255;
 }
 
@@ -469,24 +474,27 @@ em {
 
 .box {
     display: block;
+    text-align: center;
+    box-shadow: 0 3px 3px 2px rgb(202, 202, 194), 0 3px 3px 2px rgb(202, 202, 194);
+    border-radius: 5px;
     transition: all 0.4s ease;
 }
 
 .box:hover {
-    border: 1px solid #F1AF5F;
+    border: 1px solid #1f1e1e;
     scale: 1.1;
     border-radius: 5px;
 }
 
 .box h3 {
     font-size: 12px;
-    font-family: cursive;
+    font-family: Roboto;
     color: black;
 }
 
 .box p {
     font-size: 9px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto;
     color: black;
 }
 
@@ -514,8 +522,8 @@ em {
 ==========================================
 */
 
-.thrid_con_bg {
-    background-color: #FFFAF3;
+.third_con_bg {
+    background-color: #fffbef;
 }
 
 .contain_third .left_side_content {
@@ -2165,7 +2173,7 @@ h6 {
 .settings_form .form_point form .admin_color_option .classic {
     float: left;
     width: 148px;
-    font-family: italic;
+    font-family: Roboto;
     margin-top: 10px;
 }
 
@@ -2176,7 +2184,7 @@ h6 {
 .settings_form .form_point form .admin_color_option .dark {
     float: left;
     width: 148px;
-    font-family: italic;
+    font-family: Roboto;
     margin-top: 10px;
 }
 
