@@ -79,6 +79,7 @@ em {
 
 #header .logo_left img {
     width: 116px;
+    margin-left: -10px;
     height: 90px;
 }
 
@@ -174,6 +175,8 @@ em {
 
 .left_side_content h2 {
     font-family: Roboto;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .left_side_content p {
@@ -192,7 +195,7 @@ em {
 
 .head_bar p {
     padding: 10px;
-    padding-right: 0;
+    padding-left: 0;
     color: #FFB255;
 }
 
@@ -253,6 +256,11 @@ em {
     Triangle drawing at the bottom
 */
 
+.left_side_content .perfectTriangle {
+    padding-left: 329px;
+    padding-top: 10px;
+}
+
 .triangle {
     width: 0;
     height: 0;
@@ -296,8 +304,10 @@ em {
 */
 
 .first_content_rs_img img {
-    width: 456px;
-    height: 367px;
+    padding-left: 98px;
+    width: 400px;
+    padding-top: 10px;
+    height: 354px;
 }
 
 
@@ -316,7 +326,8 @@ em {
 }
 
 .maintainSpace {
-    margin-top: 20px;
+    margin-top: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -455,9 +466,16 @@ em {
 */
 
 .contain_second .left_side_content h2 {
-    font-size: 16px;
+    font-size: 22px;
     font-family: Roboto;
     color: #FFB255;
+}
+
+.contain_second .right_side_content .second_content_rs_img img {
+    padding-left: 40px;
+    width: 430px;
+    padding-top: 170px;
+    height: 320px;
 }
 
 
@@ -482,6 +500,7 @@ em {
 }
 
 .box {
+    width: 165px;
     display: block;
     text-align: center;
     box-shadow: 0 3px 3px 2px rgb(202, 202, 194), 0 3px 3px 2px rgb(202, 202, 194);
@@ -541,8 +560,9 @@ em {
 }
 
 .contain_third .left_side_content img {
-    padding: 20px;
-    width: 400px;
+    padding-top: 50px;
+    padding-bottom: 21px;
+    width: 383px;
 }
 
 
@@ -551,7 +571,26 @@ em {
 */
 
 .contain_third .right_side_content {
-    margin-top: 10px;
+    padding-top: 35px;
+}
+
+.contain_third .right_side_content h2 {
+    font-weight: bold;
+}
+
+
+/* 
+    =======Fourth Container=======
+*/
+
+.contain_fourth .left_side_content {
+    padding-top: 10px;
+}
+
+.contain_fourth .right_side_content .fourth_content_rs_img img {
+    padding-left: 15px;
+    width: 482px;
+    height: 354px;
 }
 
 
