@@ -162,6 +162,11 @@ em {
     First content floating left
 */
 
+.contain_first {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 .left_side_content {
     width: 485px;
     float: left;
@@ -308,6 +313,10 @@ em {
     width: 320px;
     color: #BC833E;
     float: left;
+}
+
+.maintainSpace {
+    margin-top: 20px;
 }
 
 
@@ -659,12 +668,12 @@ em {
 }
 
 .eighth_contain .header-8 p {
-    font-size: 11px;
+    font-size: 9px;
 }
 
 .eighth_contain .bottom-8 .bottom-up-8 img {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 }
 
 
@@ -674,8 +683,39 @@ em {
     float: left;
 } */
 
+.bottom-8 {
+    height: 250px;
+    border: 1px solid black;
+}
+
+.bottom-up-8 .star_mark {
+    text-align: center;
+}
+
 .bottom-up-8 .star_mark i {
     color: #F1A255;
+}
+
+.bottom-up-8 h4,
+h5 {
+    text-align: center;
+}
+
+.bottom-up-8 h5 mark {
+    color: #F1A255;
+    background-color: #ffff;
+}
+
+
+/* .bottom-up-8 .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+} */
+
+.bottom-up-8 img:last-child {
+    float: right;
 }
 
 
@@ -716,6 +756,11 @@ em {
 svg.radial-progress circle {
     stroke: #F1AF5F;
 }
+
+
+/* .animated_circle:last-child {
+    padding-bottom: 30px;
+} */
 
 
 /*
