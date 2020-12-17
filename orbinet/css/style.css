@@ -1660,7 +1660,7 @@ h6 {
 
 #header .dashboard .logo_left {
     padding-right: 70px;
-    border-bottom: 1px solid #F1AF5F;
+    /* border-bottom: 1px solid #F1AF5F; */
     float: left;
 }
 
@@ -1679,14 +1679,18 @@ h6 {
 #header .dashboard .user_info img {
     width: 40px;
     height: 40px;
+    float: left;
 }
 
 #header .dashboard .user_info .user_name {
     float: left;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
 }
 
 #header .dashboard .user_info .user_name span i {
-    padding-left: 32px;
+    padding-left: 0px;
 }
 
 .dashboard .search_bar {
@@ -1784,7 +1788,7 @@ h6 {
 .upper_content {
     float: left;
     padding-left: 5px;
-    border-bottom: 1px solid #e78a17;
+    /* border-bottom: 1px solid #e78a17; */
 }
 
 .upper_content .upper_left {
@@ -1804,12 +1808,24 @@ h6 {
 
 .upper_content .upper_left .left_portion .work_part .work {
     float: left;
-    width: 90px;
+    width: 99px;
     height: 85px;
     background: linear-gradient(#e78a17, #FFE855);
     border: 1px solid #ffffff;
-    padding-left: 25px;
+    margin-left: 13px;
     padding-right: 1px;
+    box-shadow: 0px 0px 18px 3px rgb(202, 202, 194);
+    transition: all 0.5s ease;
+}
+
+.upper_content .upper_left .left_portion .work_part .work:first-child {
+    margin-left: none;
+}
+
+.upper_content .upper_left .left_portion .work_part .work:hover {
+    scale: 1.5;
+    border: 1px solid #F1AF5F;
+    border-radius: 5px;
 }
 
 .upper_content .upper_left .left_portion .work_part .work img {
@@ -1842,7 +1858,11 @@ h6 {
     height: 65px;
     background: linear-gradient(#e78a17, #FFE855);
     border: 1px solid #ffffff;
-    padding-left: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 15px;
+    box-shadow: 0px 0px 18px 3px rgb(202, 202, 194);
+    transition: all 0.5s ease;
 }
 
 .upper_content .upper_left .left_portion .Admin_part .service img {
@@ -1950,6 +1970,7 @@ h6 {
 
 .bottom_content .bottom_right {
     float: left;
+    margin-top: 16px;
 }
 
 .bottom_content .bottom_right .circle_wrapper {
@@ -1962,9 +1983,9 @@ h6 {
     width: 160px;
     height: 96px;
     float: left;
-    background: #f3e4cd;
+    background: #fff9f0;
     /* padding-right: 1px; */
-    border-right: 2px solid #ffffff;
+    /* margin-right: 2px solid #ffffff; */
 }
 
 .bottom_content .bottom_right .circle_wrapper .circle:last-child {
