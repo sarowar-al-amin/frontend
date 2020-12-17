@@ -19,32 +19,36 @@
         <div class="fix container">
             <header id="header">
                 <div class="logo_left">
-                    <img src="img/logo redesign.png" alt="Image of logo" opacity="1">
+                    <img src="img/logo redesign.png" alt="Image of logo">
                 </div>
                 <nav>
-                    <ul id="menu">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Services &rsaquo;</a>
-                            <ul>
-                                <li><a href="#">Adimn Support &rsaquo;</a></li>
-                                <li><a href="#">Digital Marketing &rsaquo;</a></li>
-                                <li><a href="#">Web Design Services</a></li>
-                                <li><a href="#">Garphics Design Services</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Our products &rsaquo;</a>
-                            <ul>
-                                <li><a href="#">Graphics Design</a></li>
-                                <li><a href="#">Wordpress Theme</a></li>
-                            </ul>
-                        </li>
-                        <li class="active"><a href="#">Contact us</a></li>
-                        <li>
-                            <div id="sign_in">
-                                <a href="#">Sign in</a>
-                            </div>
-                        </li>
-                    </ul>
+                    <div id="menu">
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Services &rsaquo;</a>
+                                <ul>
+                                    <li><a href="#">Adimn Support &rsaquo;</a></li>
+                                    <li><a href="#">Digital Marketing &rsaquo;</a></li>
+                                    <li><a href="#">Web Design Services</a></li>
+                                    <li><a href="#">Garphics Design Services</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Our products &rsaquo;</a>
+                                <ul>
+                                    <li><a href="#">Graphics Design</a></li>
+                                    <li><a href="#">Wordpress Theme</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact us</a></li>
+                            <li>
+                                <div id="sign_in">
+                                    <button id="dialogop3">
+                                        sign in
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </div>
@@ -55,7 +59,9 @@
     <div class="container_full">
         <div class="fix lead_head_pic">
             <div class="lead_background">
-                <img src="img/pexels-magda-ehlers-3873647.png" alt="Backgound Image of Graphics design">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.4001267992658!2d89.25256771449587!3d25.757344115068406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e32e07d95ffbeb%3A0x6a0ad431db0c318f!2sMaster%20Para%20Rd%2C%20Rangpur!5e0!3m2!1sen!2sbd!4v1608187612279!5m2!1sen!2sbd"
+                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <!-- <img src="img/pexels-magda-ehlers-3873647.png" alt="Backgound Image of Graphics design"> -->
             </div>
             <div class="fix container">
                 <h3>Contact us</h3>
@@ -70,24 +76,25 @@
     <div class="container_full">
         <div class="fix container">
             <!-----------Left part start here -->
-            <div class="left_Of_contact">
-                <div class="name">
-                    <input type="text" placeholder="Enter you name">
+            <form action="">
+                <div class="left_Of_contact">
+                    <div class="name">
+                        <input type="text" placeholder="Enter you name">
+                    </div>
+                    <div class="enter_email">
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                    <div class="message_box">
+                        <textarea name="Text-Box" placeholder="Write you message"></textarea>
+                    </div>
+                    <div class="submit_botton">
+                        <input type="submit" value="Submit">
+                    </div>
                 </div>
-                <div class="enter_email">
-                    <input type="email" placeholder="Enter your email">
-                </div>
-                <div class="message_box">
-                    <textarea name="Text-Box" placeholder="Write you message"></textarea>
-                </div>
-                <div class="submit_botton">
-                    <input type="submit" value="Submit">
-                </div>
-            </div>
-
+            </form>
             <!---------Right part start here -->
             <div class="right_Of_contact">
-                <h3>Contact with us!</h3>
+                <h3>Contact With Us!</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eius mod tempor incididunt ut labore et dolore magna null amet aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                 <div class="addresses">
                     <div class="address">
@@ -111,7 +118,7 @@
 
 
     <!------Initaial point of footer part---->
-    <div class="container_full footer_bg">
+    <div class="container_full footer_bg maintainSpace">
         <div class="fix container">
             <div id="footer_head">
                 <div class="footer_col">
@@ -119,6 +126,7 @@
                         <div class="f_bar_y"></div>
                         <div class="f_bar_b"></div>
                     </div>
+                    <br>
                     <h3>About site</h3>
                     <h2>Name and logo</h2>
                     <div class="footer_p">
@@ -134,8 +142,8 @@
                         <div class="f_bar_y"></div>
                         <div class="f_bar_b"></div>
                     </div>
+                    <br>
                     <h3>Our Services</h3>
-
                     <li><a href="#">Data entry</a></li>
                     <li><a href="#">Graphics design</a></li>
                     <li><a href="#">SEO</a></li>
@@ -148,6 +156,7 @@
                         <div class="f_bar_y"></div>
                         <div class="f_bar_b"></div>
                     </div>
+                    <br>
                     <h3>Quick links</h3>
                     <li><a href="#">About us</a></li>
                     <li><a href="#">Services</a></li>
@@ -159,6 +168,7 @@
                         <div class="f_bar_y"></div>
                         <div class="f_bar_b"></div>
                     </div>
+                    <br>
                     <h3>Contact Us</h3>
                     <p><i class="fas fa-map-marker-alt"></i> Master Para, Chartolarmor, Rangpur</p>
                     <p><i class="fas fa-envelope"></i> adimin@admin.com</p>
@@ -168,7 +178,7 @@
         </div>
         <!------Bottom part of the footer------>
         <div class="white_bar_at_footer"></div>
-        <div class="fix container ">
+        <div class="fix container">
             <div id="footer_bottom">
                 <p>ItMarket24 &copy; All Reaserved</p>
                 <p>Privacy Terms and Conditions Contact</p>
