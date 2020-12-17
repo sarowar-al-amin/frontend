@@ -431,6 +431,11 @@ em {
     color: #ffffff;
 }
 
+.footer_head {
+    /* display: block; */
+    padding-bottom: 20px;
+}
+
 
 /* 
     Footer bottom
