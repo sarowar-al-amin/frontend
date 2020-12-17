@@ -292,6 +292,7 @@ em {
 }
 
 .view_services:hover {
+    /* scale: 1.5; */
     background: #000000;
 }
 
@@ -341,6 +342,7 @@ em {
     float: left;
     width: 15px;
     height: 5px;
+    margin-right: 3px;
     background-color: #FFB255;
     border-radius: 1px;
 }
@@ -371,6 +373,10 @@ em {
     margin: 2px 5px;
 }
 
+.footer_col:last-child {
+    margin-right: none;
+}
+
 .footer_col h3 {
     color: #ffffff;
 }
@@ -386,9 +392,13 @@ em {
     Footer  paragraph and read more
 */
 
+.footer_p {
+    width: 220px;
+}
+
 .footer_p p {
     font-family: Roboto;
-    font-size: 12px;
+    font-size: 10px;
     color: #ffffff;
 }
 
@@ -819,7 +829,7 @@ h5 {
 */
 
 .nineth_bg {
-    background-color: #FFDFB6;
+    background-color: #fcf1e5;
 }
 
 .animated_circle {
@@ -1122,6 +1132,35 @@ h6 {
 
 .graphic_first_contain .piority ul li ul:hover {
     position: absolute;
+}
+
+.container .circle_wrapper .circle {
+    width: 300px;
+    padding: 13px;
+    float: left;
+}
+
+.container .circle_wrapper .circle:first-child {
+    padding-left: none;
+}
+
+.container .circle_wrapper .circle:last-child {
+    padding-right: none;
+}
+
+.container .circle_wrapper .circle h5 {
+    color: #F1AF5F;
+    font-weight: bold;
+}
+
+.container .circle_wrapper .circle h6 {
+    color: #000000;
+    padding-left: 115px;
+}
+
+.container .circle_wrapper .circle .circlechart {
+    width: fit-content;
+    float: left;
 }
 
 
