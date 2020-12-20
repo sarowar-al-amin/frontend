@@ -1170,6 +1170,32 @@ h6 {
     color: #000000;
 }
 
+.graphic_second_contain .graphic_second_first {
+    width: 320px;
+    float: left;
+}
+
+.graphic_second_contain .list_wrapper .check_circle_text h6 {
+    color: #000000;
+}
+
+.graphic_second_contain .list_wrapper .check_circle_text h6 i {
+    color: #F1A255;
+}
+
+.graphic_second_third {
+    width: 320px;
+    float: left;
+}
+
+.graphic_second_third .list_wrapper .check_circle_text h6 {
+    color: #000000;
+}
+
+.graphic_second_third .list_wrapper .check_circle_text h6 i {
+    color: #F1A255;
+}
+
 .graphic_first_contain .description {
     float: left;
 }
