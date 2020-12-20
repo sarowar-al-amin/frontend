@@ -2414,7 +2414,7 @@ h6 {
 }
 
 .left_graph_product .app_creators ul li a {
-    color: #FFBD55;
+    color: #ca7b00;
 }
 
 .left_graph_product .icons_graph li {
@@ -2430,12 +2430,12 @@ h6 {
 
 .left_graph_product .images_graphic li a {
     font-size: 15px;
-    color: #FFB255;
+    color: #cc760e;
 }
 
 .left_graph_product .fonts_graphic li a {
     font-size: 15px;
-    color: #FFB255;
+    color: #d27e18;
 }
 
 
@@ -2528,7 +2528,7 @@ h6 {
 .right_graph_product .lower_box h2 {
     border-top: 1px solid #f3e3d0;
     border-bottom: 1px solid #f3e3d0;
-    font-weight: 150;
+    font-weight: bold;
 }
 
 .right_graph_product .lower_box h3 {
