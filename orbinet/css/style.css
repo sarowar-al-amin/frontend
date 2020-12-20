@@ -1113,6 +1113,28 @@ h6 {
 =====================================
 */
 
+.graphics_head_pic {
+    height: 200px;
+    /* width: auto; */
+    /* background-image: url("img/top-view-tools-marketing.png"); */
+}
+
+.graphics_background {
+    height: 200px;
+    opacity: 0.4;
+    /* background-image: url('img/top-view-tools-marketing.png'); */
+}
+
+.graphics_background .container {
+    opacity: 1;
+}
+
+.graphics_head_pic .container h3 {
+    /* opacity: 1; */
+    font-weight: bolder;
+    margin-top: -85px;
+}
+
 .graphic_first_contain .description {
     float: left;
 }
