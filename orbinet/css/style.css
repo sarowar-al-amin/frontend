@@ -923,6 +923,10 @@ svg.radial-progress circle {
     padding-bottom: 17px;
 }
 
+.lead_package h2 {
+    font-weight: bold;
+}
+
 .lead_package .head_bar {
     padding-bottom: 10px;
 }
@@ -932,13 +936,21 @@ svg.radial-progress circle {
 }
 
 .packages {
-    width: 320px;
-    padding-right: 3px;
+    width: 300px;
+    margin-right: 5px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 8px;
+    /* padding-right: 3px; */
+    /* border: 1px solid rgb(163, 162, 162); */
     float: left;
 }
 
 .package_head_bg {
-    background-color: #FFDFB6;
+    background-color: #fff1e1;
+}
+
+.packages :last-child {
+    margin-right: none;
 }
 
 .packages .package_head {
@@ -954,17 +966,29 @@ svg.radial-progress circle {
     margin: 0 auto;
 }
 
+.packages .package_description p {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 .packages .package_head h4,
 h6 {
-    color: #F1AF5F;
+    color: #c17212;
+    text-align: center;
 }
 
-.packages .package_head h4 {
+
+/* .packages .package_head h4 {
     padding-left: 110px;
+} */
+
+.extra_margin {
+    margin-top: 75px;
 }
 
-.packages .package_head h6 {
-    padding-left: 75px;
+.margin_trim {
+    margin-top: 58px;
 }
 
 .packages .package_required h5 {
@@ -1031,23 +1055,37 @@ h6 {
     font-size: 11px;
 }
 
+.lead_fifth_contain .bottom_lead_fifth {
+    height: 300px;
+}
+
 .lead_fifth_contain .bottom_lead_fifth .operation_part {
     width: 200px;
+    height: 155px;
     padding: 10px;
     float: left;
+    margin-right: 10px;
+    box-shadow: 0px 0px 7px 2px grey;
+}
+
+.lead_fifth_contain .bottom_lead_fifth .operation_part:first-child {
+    margin-left: 10px;
 }
 
 .lead_fifth_contain .bottom_lead_fifth .operation_part img {
     width: 60px;
     height: 60px;
+    padding-left: 50px;
 }
 
 .lead_fifth_contain .bottom_lead_fifth .operation_part h4 {
     font-size: 14px;
+    text-align: center;
 }
 
 .lead_fifth_contain .bottom_lead_fifth .operation_part p {
     font-size: 9px;
+    text-align: center;
 }
 
 
@@ -1168,6 +1206,31 @@ h6 {
 .graphics_head_pic .container h6 {
     font-size: 10px;
     color: #000000;
+    text-align: left;
+}
+
+.graphics_third_contain .head_bar {
+    margin-bottom: 2px;
+}
+
+.graphics_third_contain .info_text {
+    margin-top: 5px;
+}
+
+.graphics_third_contain .info_text h2 {
+    font-weight: bold;
+}
+
+.graphics_third_contain .info_text h3 {
+    font-weight: bold;
+}
+
+.graphics_third_contain .info_text p {
+    font-size: 12px;
+}
+
+.graphics_third_contain .info_text p i {
+    color: #F1A255;
 }
 
 .graphic_second_contain .graphic_second_first {
@@ -1177,6 +1240,7 @@ h6 {
 
 .graphic_second_contain .list_wrapper .check_circle_text h6 {
     color: #000000;
+    text-align: left;
 }
 
 .graphic_second_contain .list_wrapper .check_circle_text h6 i {
@@ -1190,6 +1254,7 @@ h6 {
 
 .graphic_second_third .list_wrapper .check_circle_text h6 {
     color: #000000;
+    text-align: left;
 }
 
 .graphic_second_third .list_wrapper .check_circle_text h6 i {
