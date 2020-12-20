@@ -2415,6 +2415,11 @@ h6 {
 
 .left_graph_product .app_creators ul li a {
     color: #ca7b00;
+    font-size: 12px;
+}
+
+.left_graph_product .app_creators ul li a i {
+    color: #000000;
 }
 
 .left_graph_product .icons_graph li {
