@@ -2698,13 +2698,14 @@ h6 {
 
 .settings_form .form_point form .account_management .changingPassword_1 h5 {
     color: #000000;
-    font-size: 12px;
+    font-size: 14px;
     width: 150px;
     font-weight: normal;
     float: left;
+    text-align: left;
 }
 
-.settings_form .form_point form .account_management .changingPassword .changePasswordBotton {
+.settings_form .form_point form .account_management .changingPassword_1 .changePasswordBotton {
     width: 140px;
     height: 25px;
     margin-top: 8px;
@@ -2713,7 +2714,7 @@ h6 {
     float: left;
 }
 
-.settings_form .form_point form .account_management .changingPassword .changePasswordBotton a {
+.settings_form .form_point form .account_management .changingPassword_1 .changePasswordBotton a {
     color: #ffffff;
 }
 
@@ -2725,6 +2726,9 @@ h6 {
 .settings_form .form_point form .account_management .session h5 {
     width: 150px;
     float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 .settings_form .form_point form .account_management .session .botton_session a {
@@ -2759,13 +2763,25 @@ h6 {
 .settings_form .form_point form .account_management .changingPassword_1 .newPassword {
     height: 32px;
     padding-bottom: 5px;
+    margin-top: 10px;
 }
 
 .settings_form .form_point form .account_management .changingPassword_1 .newPassword h6 {
     color: #000000;
-    font-size: 15px;
+    font-size: 12px;
     width: 150px;
     float: left;
+    text-align: left;
+}
+
+.settings_form .form_point form .account_management .changingPassword_1 .newPassword:first-child {
+    margin: 0;
+    padding: 0;
+}
+
+.zero_margin_padding {
+    margin-left: -150px;
+    padding: 0px;
 }
 
 .settings_form .form_point form .account_management .changingPassword_1 .newPassword input {
@@ -2780,7 +2796,7 @@ h6 {
 
 .settings_form .form_point form .account_management .changingPassword_1 .save_botton input {
     background: #FFB255;
-    width: 70px;
+    width: 110px;
     height: 30px;
     color: #ffff;
     border-radius: 5px;
