@@ -1519,6 +1519,7 @@ h6 {
 
 .upload_point .text h4 {
     font-size: 15px;
+    text-align: center;
 }
 
 .upload_point .text h6 {
@@ -1551,7 +1552,7 @@ h6 {
     border-radius: 5px;
 }
 
-.continue h4 {
+.continue a {
     padding-top: 5px;
     padding-left: 5px;
     color: #ffffff;
