@@ -147,8 +147,15 @@ em {
 */
 
 #header>nav #menu ul li #sign_in {
-    margin-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+#header>nav #menu ul li #sign_in button {
+    background-color: #fac188;
+    color: #ffff;
+    border-radius: 4px;
+    border: 1px solid #fac188;
 }
 
 #header>nav #menu ul li #sign_in a {
