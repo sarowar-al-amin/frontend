@@ -1280,9 +1280,9 @@ h6 {
 }
 
 .graphic_first_contain .piority {
-    width: 90px;
-    height: 25px;
-    border: 2px solid #FFB255;
+    width: 120px;
+    height: 22px;
+    border: 1px solid #FFB255;
     float: right;
 }
 
@@ -1429,17 +1429,32 @@ h6 {
 
 .thrid_graphics_contain .options_view {
     width: 300px;
-    padding-right: 10px;
+    height: 276px;
+    margin-right: 10px;
     float: left;
+    border: 1px solid #f1a255;
+    border-radius: 4px;
+    /* border-bottom: 38px; */
+    transition: all .5s ease;
+}
+
+.thrid_graphics_contain .options_view:hover {
+    transform: scale(1.1);
+    background: antiquewhite;
 }
 
 .thrid_graphics_contain .options_view img {
     width: 300px;
 }
 
+.thrid_graphics_contain .options_view h3 {
+    text-align: center;
+}
+
 .thrid_graphics_contain .options_view h4 {
     width: 120px;
     float: left;
+    margin-top: 0px;
 }
 
 .thrid_graphics_contain .options_view .price_tag {
