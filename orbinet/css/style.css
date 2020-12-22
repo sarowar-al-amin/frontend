@@ -1431,7 +1431,9 @@ h6 {
 .thrid_graphics_contain .options_view {
     width: 300px;
     height: 276px;
-    margin-right: 10px;
+    margin-right: 12px;
+    margin-left: 12px;
+    margin-top: 12px;
     float: left;
     border: 1px solid #f1a255;
     border-radius: 4px;
