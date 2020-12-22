@@ -23,29 +23,33 @@
                     <img src="img/logo redesign.png" alt="Image of logo">
                 </div>
                 <nav>
-                    <ul id="menu">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">Services &rsaquo;</a>
-                            <ul>
-                                <li><a href="#">Adimn Support &rsaquo;</a></li>
-                                <li><a href="#">Digital Marketing &rsaquo;</a></li>
-                                <li><a href="#">Web Design Services</a></li>
-                                <li><a href="#">Garphics Design Services</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Our products &rsaquo;</a>
-                            <ul>
-                                <li><a href="#">Graphics Design</a></li>
-                                <li><a href="#">Wordpress Theme</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Contact us</a></li>
-                        <li>
-                            <div id="sign_in">
-                                <a href="#">Sign in</a>
-                            </div>
-                        </li>
-                    </ul>
+                    <div id="menu">
+                        <ul>
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Services &rsaquo;</a>
+                                <ul>
+                                    <li><a href="#">Adimn Support &rsaquo;</a></li>
+                                    <li><a href="#">Digital Marketing &rsaquo;</a></li>
+                                    <li><a href="#">Web Design Services</a></li>
+                                    <li><a href="#">Garphics Design Services</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Our products &rsaquo;</a>
+                                <ul>
+                                    <li><a href="#">Graphics Design</a></li>
+                                    <li><a href="#">Wordpress Theme</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact us</a></li>
+                            <li>
+                                <div id="sign_in">
+                                    <button id="dialogop3">
+                                        sign in
+                                    </button>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
         </div>
@@ -53,14 +57,16 @@
     <!----------- Header portion finish--------->
     <!----------- Initial point of Page Marker --------->
     <div class="container_full">
-        <div class="fix lead_head_pic">
-            <div class="lead_background">
-                <img src="img/bg_graphic.png" alt="Backgound Image of Graphics design">
+        <div class="fix graphics_head_pic">
+            <div class="graphics_background" style="background-image: url('img/leadgeneration_bg.png');">
+                <!-- <img src="img/top-view-tools-marketing.png" alt="Lead generation lead_background Image"> -->
             </div>
-            <div class="fix container">
+            <div class="container" style="opacity: 1;">
                 <h3>Lead Generation</h3>
+                <h6>Home > Lead Generation</h6>
             </div>
         </div>
+
     </div>
     <!----------- Ending point of Page Marker --------->
 
@@ -153,71 +159,75 @@
     <div class="container_full">
         <div class="fix container">
             <div class="continue">
-                <h4>Continue</h4>
+                <!-- <h4>Continue</h4> -->
+                <a href="#">Continue</a>
             </div>
         </div>
     </div>
     <!----------Ending continue botton ------>
 
     <!------Initaial point of footer part---->
-    <div class="container_full footer_bg">
-        <div class="fix container">
-            <div id="footer_head">
-                <div class="footer_col">
-                    <div class="bar_wrap">
-                        <div class="f_bar_y"></div>
-                        <div class="f_bar_b"></div>
-                    </div>
-                    <h3>About site</h3>
-                    <h2>Name and logo</h2>
-                    <div class="footer_p">
-                        <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's
-                        </p>
-                        <!-------I don't have any idea is it botton or link------->
-                        <a href="#">Read more</a>
-                    </div>
-                    <input type="email" placeholder="Enter your email">
-                </div>
-                <div class="footer_col">
-                    <div class="bar_wrap">
-                        <div class="f_bar_y"></div>
-                        <div class="f_bar_b"></div>
-                    </div>
-                    <h3>Our Services</h3>
+    <div class="container_full footer_bg maintainSpace">
+        <div class="fix container footer_head">
 
-                    <li><a href="#">Data entry</a></li>
-                    <li><a href="#">Graphics design</a></li>
-                    <li><a href="#">SEO</a></li>
-                    <li><a href="#">Skip Tracing</a></li>
-                    <li><a href="#">Lead generation</a></li>
+            <div class="footer_col">
+                <div class="bar_wrap">
+                    <div class="f_bar_y"></div>
+                    <div class="f_bar_b"></div>
                 </div>
-
-                <div class="footer_col">
-                    <div class="bar_wrap">
-                        <div class="f_bar_y"></div>
-                        <div class="f_bar_b"></div>
-                    </div>
-                    <h3>Quick links</h3>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href="#">Refund Policy</a></li>
+                <br>
+                <h3>About site</h3>
+                <h2>Name and logo</h2>
+                <div class="footer_p">
+                    <p>Lorem Ipsum is simply dummy text of the printing and industry. Lorem Ipsum has been the industry's
+                    </p>
+                    <!-------I don't have any idea is it botton or link------->
+                    <a href="#">Read more</a>
                 </div>
-                <div class="footer_col">
-                    <div class="bar_wrap">
-                        <div class="f_bar_y"></div>
-                        <div class="f_bar_b"></div>
-                    </div>
-                    <h3>Contact Us</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Master Para, Chartolarmor, Rangpur</p>
-                    <p><i class="fas fa-envelope"></i> adimin@admin.com</p>
-                    <p><i class="fas fa-phone-alt"></i> +0123456789</p>
-                </div>
+                <input type="email" placeholder="Enter your email">
             </div>
+            <div class="footer_col">
+                <div class="bar_wrap">
+                    <div class="f_bar_y"></div>
+                    <div class="f_bar_b"></div>
+                </div>
+                <br>
+                <h3>Our Services</h3>
+                <li><a href="#">Data entry</a></li>
+                <li><a href="#">Graphics design</a></li>
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">Skip Tracing</a></li>
+                <li><a href="#">Lead generation</a></li>
+            </div>
+
+            <div class="footer_col">
+                <div class="bar_wrap">
+                    <div class="f_bar_y"></div>
+                    <div class="f_bar_b"></div>
+                </div>
+                <br>
+                <h3>Quick links</h3>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Refund Policy</a></li>
+            </div>
+            <div class="footer_col">
+                <div class="bar_wrap">
+                    <div class="f_bar_y"></div>
+                    <div class="f_bar_b"></div>
+                </div>
+                <br>
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Master Para, Chartolarmor, Rangpur</p>
+                <p><i class="fas fa-envelope"></i> adimin@admin.com</p>
+                <p><i class="fas fa-phone-alt"></i> +0123456789</p>
+            </div>
+
         </div>
         <!------Bottom part of the footer------>
         <div class="white_bar_at_footer"></div>
-        <div class="fix container ">
+        <div class="fix container">
             <div id="footer_bottom">
                 <p>ItMarket24 &copy; All Reaserved</p>
                 <p>Privacy Terms and Conditions Contact</p>
@@ -243,13 +253,14 @@
                 </span>
             </div>
         </div>
+    </div>
 
-        <!------ Ending point of footer------>
+    <!------ Ending point of footer------>
 
-        <!---------- JavaScript --------->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="jss/vendor-animated-circle.js"></script>
-        <script src="jss/main.js"></script>
+    <!---------- JavaScript --------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="jss/vendor-animated-circle.js"></script>
+    <script src="jss/main.js"></script>
 </body>
 
 </html>
