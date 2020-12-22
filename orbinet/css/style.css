@@ -1279,11 +1279,12 @@ h6 {
     font-size: 12px;
 }
 
-.graphic_first_contain .piority {
+.graphic_first_contain .piority label select {
     width: 120px;
     height: 22px;
     border: 1px solid #FFB255;
     float: right;
+    border-radius: 4px;
 }
 
 .graphic_first_contain .piority ul {
