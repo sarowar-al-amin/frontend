@@ -2630,6 +2630,15 @@ h6 {
 
 .settings_form .form_point form .user_name .name_radio {
     padding: 1px;
+    font-size: 12px;
+}
+
+.settings_form .form_point form .user_name .name_radio h4 {
+    font-size: 16px;
+}
+
+.settings_form .form_point form .user_name .name_radio input {
+    padding-right: 10px;
 }
 
 .settings_form .form_point form .user_name .name_radio h4 sup i {
