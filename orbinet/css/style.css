@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: Roboto;
+    font-family: Arial;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
@@ -48,6 +48,10 @@ em {
 /*
     Define container
 */
+
+#header {
+    height: 160px;
+}
 
 .container_full {
     width: 100%;
@@ -524,17 +528,18 @@ em {
 }
 
 .box {
-    width: 165px;
+    overflow: hidden;
+    width: 190px;
     display: block;
+    height: 244px;
     text-align: center;
-    box-shadow: 0 3px 3px 2px rgb(202, 202, 194), 0 3px 3px 2px rgb(202, 202, 194);
     border-radius: 5px;
     transition: all 0.4s ease;
 }
 
 .box:hover {
-    border: 1px solid #1f1e1e;
-    scale: 1.1;
+    /* border: 1px solid #1f1e1e; */
+    box-shadow: 0 3px 3px 2px rgb(202, 202, 194), 0 3px 3px 2px rgb(202, 202, 194);
     border-radius: 5px;
 }
 
@@ -565,7 +570,7 @@ em {
 */
 
 .margin_box {
-    margin-top: 20px;
+    margin-top: 16px;
 }
 
 
