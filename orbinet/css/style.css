@@ -500,10 +500,11 @@ em {
 }
 
 .contain_second .right_side_content .second_content_rs_img img {
-    padding-left: 40px;
-    width: 430px;
+    padding-left: 4px;
+    width: 100%;
     padding-top: 170px;
-    height: 320px;
+    height: 440px;
+    /* max-height: 440px; */
 }
 
 
@@ -521,10 +522,10 @@ em {
     margin: 8px;
 }
 
-box_wrapper .right_box {
+.box_wrapper .right_box {
     float: left;
     width: 192px;
-    margin: 5px;
+    margin: 4px;
 }
 
 .box {
